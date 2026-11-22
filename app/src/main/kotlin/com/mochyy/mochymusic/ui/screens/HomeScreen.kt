@@ -125,6 +125,7 @@ import com.mochyy.mochymusic.db.entities.Song
 import com.mochyy.mochymusic.extensions.toMediaItem
 import com.mochyy.mochymusic.LocalPlayerAwareWindowInsets
 import com.mochyy.mochymusic.LocalPlayerConnection
+import com.mochyy.mochymusic.together.ListenTogetherHeaderButton
 import com.mochyy.mochymusic.models.ArtistGroup
 import com.mochyy.mochymusic.models.toMediaMetadata
 import com.mochyy.mochymusic.playback.queues.ListQueue
@@ -1867,50 +1868,56 @@ fun HomeScreen(
                         )
                     }
 
-                    Box(
-                        modifier = Modifier
-                            .launchRise(order = 0, distance = HomeTopBarRise)
-                            .graphicsLayer {
-                                val scale = 1f - (topBarProgress * 0.1f)
-                                scaleX = scale
-                                scaleY = scale
-                                transformOrigin = TransformOrigin(1f, 0.5f)
-                            }
-                            .height(44.dp)
-                            .clip(RoundedCornerShape(50))
-                            .clickable { navController.navigateToTab("settings") },
-                        contentAlignment = Alignment.CenterEnd
+                    Row(
+                        horizontalArrangement = Arrangement.spacedBy(10.dp),
+                        verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically,
-                            modifier = Modifier.padding(vertical = 4.dp)
+                        ListenTogetherHeaderButton()
+                        Box(
+                            modifier = Modifier
+                                .launchRise(order = 0, distance = HomeTopBarRise)
+                                .graphicsLayer {
+                                    val scale = 1f - (topBarProgress * 0.1f)
+                                    scaleX = scale
+                                    scaleY = scale
+                                    transformOrigin = TransformOrigin(1f, 0.5f)
+                                }
+                                .height(44.dp)
+                                .clip(RoundedCornerShape(50))
+                                .clickable { navController.navigateToTab("settings") },
+                            contentAlignment = Alignment.CenterEnd
                         ) {
-            val avatarBoundsModifier = Modifier
-                            if (profileImageUrl != null) {
-                                AsyncImage(
-                                    model = profileImageRequest,
-                                    placeholder = painterResource(R.drawable.person),
-                                    error = painterResource(R.drawable.person),
-                                    contentDescription = stringResource(R.string.profile_label),
-                                    modifier = avatarBoundsModifier
-                                        .size(36.dp)
-                                        .clip(CircleShape),
-                                    contentScale = ContentScale.Crop
-                                )
-                            } else {
-                                Box(
-                                    modifier = avatarBoundsModifier
-                                        .size(36.dp)
-                                        .clip(CircleShape)
-                                        .background(MaterialTheme.colorScheme.surfaceVariant),
-                                    contentAlignment = Alignment.Center
-                                ) {
-                                    Icon(
-                                        painter = painterResource(R.drawable.person),
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                modifier = Modifier.padding(vertical = 4.dp)
+                            ) {
+                val avatarBoundsModifier = Modifier
+                                if (profileImageUrl != null) {
+                                    AsyncImage(
+                                        model = profileImageRequest,
+                                        placeholder = painterResource(R.drawable.person),
+                                        error = painterResource(R.drawable.person),
                                         contentDescription = stringResource(R.string.profile_label),
-                                        tint = MaterialTheme.colorScheme.onSurfaceVariant,
-                                        modifier = Modifier.size(20.dp)
+                                        modifier = avatarBoundsModifier
+                                            .size(36.dp)
+                                            .clip(CircleShape),
+                                        contentScale = ContentScale.Crop
                                     )
+                                } else {
+                                    Box(
+                                        modifier = avatarBoundsModifier
+                                            .size(36.dp)
+                                            .clip(CircleShape)
+                                            .background(MaterialTheme.colorScheme.surfaceVariant),
+                                        contentAlignment = Alignment.Center
+                                    ) {
+                                        Icon(
+                                            painter = painterResource(R.drawable.person),
+                                            contentDescription = stringResource(R.string.profile_label),
+                                            tint = MaterialTheme.colorScheme.onSurfaceVariant,
+                                            modifier = Modifier.size(20.dp)
+                                        )
+                                    }
                                 }
                             }
                         }

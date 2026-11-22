@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Greetings -->
+    <string name="profile_greeting_hello_again">Halo lagi</string>
+    <string name="profile_greeting_hey">Hei</string>
+    <string name="profile_greeting_welcome_back">Selamat datang kembali</string>
+    <string name="profile_greeting_good_to_see_you">Senang melihatmu</string>
+    <string name="profile_greeting_fallback">kamu</string>
+    <string name="profile_greeting_format">%1$s, %2$s!</string>
+
+    <!-- Profile Header &amp; ID Card -->
+    <string name="profile_joined_at">bergabung sejak %1$s</string>
+    <string name="profile_pull_down_cd">Tarik ke bawah</string>
+    <string name="profile_swipe_down_hint">geser ke bawah di sini!!</string>
+    <string name="profile_scratch_hint">gosok!</string>
+    <string name="profile_come_back_later">kembali lagi nanti</string>
+    <string name="profile_swipe_up_to_close">geser ke atas untuk menutup</string>
+
+    <!-- Listening Time Card &amp; Stats -->
+    <string name="profile_total_listening_time">"Total waktu\ndengar"</string>
+    <string name="profile_view_stats">"Lihat statistik  &gt;"</string>
+    <string name="profile_unit_hour_short">j</string>
+    <string name="profile_unit_minute_short">m</string>
+
+    <!-- Version &amp; About Card -->
+    <string name="profile_version_about_app">Versi &amp; tentang aplikasi</string>
+    <string name="profile_capsule_about">Tentang aplikasi</string>
+    <string name="profile_capsule_update">Perbarui</string>
+
+    <!-- Community &amp; Settings -->
+    <string name="profile_meet_dev_contributors">temui developer :3</string>
+    <string name="profile_join_discord">Gabung saluran WhatsApp kami!</string>
+    <string name="profile_discord_cd">WhatsApp</string>
+    <string name="profile_settings_title">Pengaturan</string>
+    <string name="profile_open_settings">Buka pengaturan</string>
+
+    <!-- Edit Profile Sheet -->
+    <string name="profile_edit_title">Edit profil</string>
+    <string name="profile_data_privacy_hint">Mochy tidak akan pernah menyimpan datamu secara online!</string>
+    <string name="profile_done">Selesai</string>
+    <string name="profile_username_label">nama pengguna</string>
+    <string name="profile_username_placeholder">nama pengguna</string>
+    <string name="profile_picture_label">foto profil</string>
+    <string name="profile_picture_cd">Foto profil</string>
+    <string name="profile_picture_add_cd">Tambahkan foto profil</string>
+
+    <!-- User Profile Page -->
+    <string name="profile_tag">PROFIL USR#%1$s</string>
+    <string name="profile_edit_button">Edit profil</string>
+    <string name="profile_total_listens">Total diputar</string>
+    <plurals name="profile_unit_songs">
+        <item quantity="one">Lagu</item>
+        <item quantity="other">Lagu</item>
+    </plurals>
+    <plurals name="profile_unit_minutes">
+        <item quantity="one">Menit</item>
+        <item quantity="other">Menit</item>
+    </plurals>
+    <plurals name="profile_unit_hours">
+        <item quantity="one">Jam</item>
+        <item quantity="other">Jam</item>
+    </plurals>
+    <string name="profile_listening_to">Sedang didengar</string>
+    <string name="profile_recent_empty">Lagu yang kamu putar akan muncul di sini.</string>
+    <string name="profile_your_playlists">Playlist kamu</string>
+    <string name="profile_top_artists">Artis teratas</string>
+    <string name="profile_top_artists_empty">Artis yang paling sering kamu putar akan muncul di sini.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="together_button_cd">Dengarkan bareng</string>
+    <string name="together_title">Dengarkan bareng</string>
+    <string name="together_intro">Buat room dan bagikan lagu yang sedang kamu putar. Siapa pun yang punya kodenya ikut mendengar bersamamu, sinkron.</string>
+    <string name="together_create">Buat room</string>
+    <string name="together_code_label">Kode room</string>
+    <string name="together_join">Gabung</string>
+    <string name="together_leave">Keluar dari room</string>
+    <string name="together_connecting">Menghubungkan…</string>
+    <string name="together_role_host">Host</string>
+    <string name="together_role_guest">Pendengar</string>
+    <string name="together_role_members">%1$s · %2$d orang di room</string>
+    <string name="together_host_hint">Lagu yang kamu putar dibagikan ke semua orang di room, beserta posisi lagunya.</string>
+    <string name="together_guest_hint">Musikmu mengikuti host. Hanya lagu YouTube yang bisa disinkronkan.</string>
+    <string name="together_error_offline">Tidak bisa terhubung ke server dengarkan bareng. Coba lagi.</string>
+    <string name="together_error_not_found">Tidak ada room dengan kode itu.</string>
+    <string name="together_closed">Host menutup room.</string>
+</resources>

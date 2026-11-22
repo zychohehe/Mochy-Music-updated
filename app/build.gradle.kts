@@ -420,6 +420,8 @@ dependencies {
     implementation(libs.media3.dash)
     implementation(libs.media3.ui)
     implementation(libs.media3.okhttp)
+    // listen together: the same OkHttp version innertube already pulls in, used directly for the WebSocket
+    implementation("com.squareup.okhttp3:okhttp:5.3.2")
     // ffmpeg decodes alac (and flac, opus...) on phones that have no decoder of their own for it
     implementation(libs.media3.ffmpeg)
     // song share videos: decode the background, mix in the song, encode the mp4

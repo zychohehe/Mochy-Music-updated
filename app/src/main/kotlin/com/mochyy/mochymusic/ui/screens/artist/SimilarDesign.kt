@@ -6,6 +6,7 @@
 
 package com.mochyy.mochymusic.ui.screens.artist
 
+import com.mochyy.mochymusic.ui.screens.profile.ProfileStore
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.spring
@@ -395,7 +396,7 @@ internal fun SimilarPage(
             morph = { morph.value },
             title = bigLine,
             background = background,
-            profileImage = profilePic.ifBlank { null },
+            profileImage = ProfileStore.imageModel(profilePic),
             onBackClick = { navController.navigateUp() },
             onBackLongClick = { navController.backToMain() },
             onProfileClick = { navController.navigateToTab("settings") },

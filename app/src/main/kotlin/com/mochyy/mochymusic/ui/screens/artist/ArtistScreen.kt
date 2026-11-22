@@ -2,6 +2,7 @@
 
 package com.mochyy.mochymusic.ui.screens.artist
 
+import com.mochyy.mochymusic.ui.screens.profile.ProfileStore
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
@@ -564,7 +565,7 @@ fun ArtistScreen(
             morph = { morph.value },
             title = name,
             background = background,
-            profileImage = profilePic.ifBlank { null },
+            profileImage = ProfileStore.imageModel(profilePic),
             onBackClick = { navController.navigateUp() },
             onBackLongClick = { navController.backToMain() },
             onProfileClick = { navController.navigateToTab("settings") },

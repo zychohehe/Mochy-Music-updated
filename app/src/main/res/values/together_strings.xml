@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="together_button_cd">Listen together</string>
+    <string name="together_title">Listen together</string>
+    <string name="together_intro">Start a room and share the song you are playing. Anyone with the code hears it with you, in sync.</string>
+    <string name="together_create">Create room</string>
+    <string name="together_code_label">Room code</string>
+    <string name="together_join">Join</string>
+    <string name="together_leave">Leave room</string>
+    <string name="together_connecting">Connecting…</string>
+    <string name="together_role_host">Host</string>
+    <string name="together_role_guest">Listener</string>
+    <string name="together_role_members">%1$s · %2$d in room</string>
+    <string name="together_host_hint">Whatever you play is shared with everyone in the room, along with where you are in the song.</string>
+    <string name="together_guest_hint">Your music follows the host. Only YouTube songs can be synced.</string>
+    <string name="together_error_offline">Couldn\'t reach the listen together server. Try again.</string>
+    <string name="together_error_not_found">No room with that code.</string>
+    <string name="together_closed">The host closed the room.</string>
+</resources>

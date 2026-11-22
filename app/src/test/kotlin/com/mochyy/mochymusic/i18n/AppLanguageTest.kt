@@ -6,10 +6,10 @@ import org.junit.Test
 import java.util.Locale
 
 class AppLanguageTest {
-    @Test fun `system default follows the device`() {
-        val device = Locale.forLanguageTag("id-ID")
-        assertEquals(device, resolveUiLocale(SYSTEM_DEFAULT, device))
-        assertEquals(device, resolveUiLocale(null, device))
+    @Test fun `unset language opens in Indonesian whatever the device says`() {
+        val indonesian = Locale.forLanguageTag(DefaultUiLanguageTag)
+        assertEquals(indonesian, resolveUiLocale(SYSTEM_DEFAULT, Locale.JAPANESE))
+        assertEquals(indonesian, resolveUiLocale(null, Locale.ENGLISH))
     }
 
     @Test fun `explicit override wins over device`() {
@@ -18,10 +18,11 @@ class AppLanguageTest {
         assertEquals(Locale.forLanguageTag("zh-TW"), resolveUiLocale("zh-TW", Locale.ENGLISH))
     }
 
-    @Test fun `empty or malformed selection follows system`() {
-        assertEquals(Locale.JAPANESE, resolveUiLocale("", Locale.JAPANESE))
-        assertEquals(Locale.JAPANESE, resolveUiLocale("!!!", Locale.JAPANESE))
-        assertEquals(Locale.ENGLISH, resolveUiLocale(null, Locale.ROOT))
+    @Test fun `empty or malformed selection falls back to the Indonesian default`() {
+        val indonesian = Locale.forLanguageTag(DefaultUiLanguageTag)
+        assertEquals(indonesian, resolveUiLocale("", Locale.JAPANESE))
+        assertEquals(indonesian, resolveUiLocale("!!!", Locale.JAPANESE))
+        assertEquals(indonesian, resolveUiLocale(null, Locale.ROOT))
     }
 
     @Test fun `missing resources fall back to English before other locales`() {

@@ -21,13 +21,20 @@ import java.util.Locale
 
 private val migratedToPlatformKey = booleanPreferencesKey("appLanguageMigratedToPlatform")
 
+/**
+ * The language Mochy opens in when the person never picked one. Indonesian is the app's default,
+ * so a fresh install shows Indonesian regardless of the device language. Picking any language in
+ * settings overrides this.
+ */
+internal const val DefaultUiLanguageTag = "in"
+
 /** Resolves the UI language independently of the country/content/lyrics preferences. */
 internal fun resolveUiLocale(selection: String?, system: Locale): Locale {
     val selected = selection
         ?.takeUnless { it.isBlank() || it == SYSTEM_DEFAULT }
         ?.let(Locale::forLanguageTag)
         ?.takeIf { it.language.isNotBlank() }
-    return selected ?: system.takeIf { it.language.isNotBlank() } ?: Locale.ENGLISH
+    return selected ?: Locale.forLanguageTag(DefaultUiLanguageTag)
 }
 
 /** Put English before any other device language when a string is missing. */

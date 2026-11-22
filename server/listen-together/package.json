@@ -1,0 +1,16 @@
+{
+  "name": "mochy-listen-together",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Relay server for Mochy's listen together rooms. It only passes playback snapshots between the host and listeners.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
