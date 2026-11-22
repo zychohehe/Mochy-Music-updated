@@ -28,7 +28,7 @@
     <string name="profile_capsule_update">Update</string>
 
     <!-- Community & Settings -->
-    <string name="profile_meet_dev_contributors">meet the developer :3</string>
+    <string name="profile_meet_dev_contributors">developer :3</string>
     <string name="profile_join_discord">Join our WhatsApp channel!</string>
     <string name="profile_discord_cd">WhatsApp</string>
     <string name="profile_settings_title">Settings</string>

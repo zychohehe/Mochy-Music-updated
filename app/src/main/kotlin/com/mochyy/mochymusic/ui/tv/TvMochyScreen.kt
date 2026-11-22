@@ -85,7 +85,7 @@ internal fun TvMochyScreen(profile: TvProfile) {
             stringResource(if (phoneControl) R.string.tv_on else R.string.tv_off),
             R.drawable.sync,
         ) { TvControl.setAllowed(!phoneControl) },
-        TvMochyTile("updates", stringResource(R.string.tv_mochy_updates), stringResource(R.string.tv_mochy_version, BuildConfig.VERSION_NAME), R.drawable.sync) {
+        TvMochyTile("updates", stringResource(R.string.tv_mochy_updates), stringResource(R.string.tv_mochy_version, BuildConfig.VERSION_NAME.substringBefore(' ')), R.drawable.sync) {
             popup.showUpdateSheet(updateState)
         },
         TvMochyTile("support", stringResource(R.string.tv_mochy_support), stringResource(R.string.tv_mochy_support_detail), R.drawable.favorite) {
@@ -96,7 +96,7 @@ internal fun TvMochyScreen(profile: TvProfile) {
     Row(Modifier.fillMaxSize().padding(start = TvSpace.Start, end = TvSpace.End)) {
         Column(Modifier.width(250.dp).padding(top = TvSpace.Top)) {
             Text(stringResource(R.string.tv_mochy), style = TvText.PageTitle)
-            Text(stringResource(R.string.tv_mochy_version, BuildConfig.VERSION_NAME), style = TvText.Body.copy(fontSize = 13.sp))
+            Text(stringResource(R.string.tv_mochy_version, BuildConfig.VERSION_NAME.substringBefore(' ')), style = TvText.Body.copy(fontSize = 13.sp))
         }
         CompositionLocalProvider(LocalBringIntoViewSpec provides TvColumnPivot) {
             LazyVerticalGrid(

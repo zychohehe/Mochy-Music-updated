@@ -97,7 +97,7 @@ import java.util.Locale
 fun ChangelogScreen(
     navController: NavController,
     scrollBehavior: TopAppBarScrollBehavior,
-    versionTag: String = "v${BuildConfig.VERSION_NAME}"
+    versionTag: String = "v${BuildConfig.VERSION_NAME.substringBefore(' ')}"
 ) {
     val context = LocalContext.current
     var changelogSections by remember { mutableStateOf<List<ChangelogSection>>(emptyList()) }
