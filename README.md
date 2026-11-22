@@ -242,7 +242,6 @@ These are the open source apis and server we get gets its lyrics, streams and da
 ## Developer & community
 
 - **Developer:** [zychohehe](https://github.com/zychohehe)
-- **Contributor:** a2unknowwn
 - **Community:** [WhatsApp Channel](https://whatsapp.com/channel/0029Vb8gHJ7545uuF9Ox1I2z)
 
 This build is a fork of [Mochy Music](https://github.com/realidkroo/Mochy-Music) by realidkroo (GPL-3.0), which is itself built on Vivimusic, Metrolist and others. The original authors stay credited in the app (About > Credits) and in the LICENSE.

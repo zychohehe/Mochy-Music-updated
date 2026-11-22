@@ -16,6 +16,11 @@ import androidx.compose.foundation.layout.only
 import androidx.compose.foundation.layout.systemBars
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.material3.Icon
+import androidx.compose.material3.Text
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.spring
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.Stable
@@ -204,7 +209,7 @@ internal val NavBarHeight = 64.dp
 internal val NavBarShape = RoundedCornerShape(50)
 
 /** How bright an unlit tab's icon is. */
-private const val UnlitIconAlpha = 0.7f
+private const val UnlitIconAlpha = 0.75f
 
 @Composable
 fun AppNavigationBar(
@@ -335,7 +340,7 @@ internal fun RowScope.NavTab(
     val lastTap = remember { longArrayOf(0L) }
     val lit = animateFloatAsState(
         targetValue = if (isSelected) 1f else 0f,
-        animationSpec = tween(200),
+        animationSpec = spring(dampingRatio = 0.7f, stiffness = Spring.StiffnessMediumLow),
         label = "nav_tab_lit"
     )
 
@@ -378,27 +383,52 @@ private fun TabIcons(
     lit: () -> Float,
 ) {
     Box(contentAlignment = Alignment.Center) {
-        Icon(
-            painter = unlitIcon,
-            contentDescription = stringResource(screen.titleId),
-            tint = Color.White,
-            modifier = Modifier
-                .size(iconSize)
-                .graphicsLayer {
-                    alpha = UnlitIconAlpha * (1f - lit())
-                    compositingStrategy = CompositingStrategy.ModulateAlpha
-                }
-        )
-        Icon(
-            painter = litIcon,
-            contentDescription = null,
-            tint = Color.White,
-            modifier = Modifier
-                .size(iconSize)
-                .graphicsLayer {
-                    alpha = lit()
-                    compositingStrategy = CompositingStrategy.ModulateAlpha
-                }
+        Box(
+            contentAlignment = Alignment.Center,
+            modifier = Modifier.graphicsLayer {
+                val l = lit().coerceIn(0f, 1f)
+                // the lit tab's icon lifts a little and grows, making room for its name underneath
+                translationY = -6.dp.toPx() * l
+                scaleX = 1f + 0.1f * l
+                scaleY = 1f + 0.1f * l
+            },
+        ) {
+            Icon(
+                painter = unlitIcon,
+                contentDescription = stringResource(screen.titleId),
+                tint = Color.White,
+                modifier = Modifier
+                    .size(iconSize)
+                    .graphicsLayer {
+                        alpha = UnlitIconAlpha * (1f - lit().coerceIn(0f, 1f))
+                        compositingStrategy = CompositingStrategy.ModulateAlpha
+                    }
+            )
+            Icon(
+                painter = litIcon,
+                contentDescription = null,
+                tint = Color.White,
+                modifier = Modifier
+                    .size(iconSize)
+                    .graphicsLayer {
+                        alpha = lit().coerceIn(0f, 1f)
+                        compositingStrategy = CompositingStrategy.ModulateAlpha
+                    }
+            )
+        }
+        Text(
+            text = stringResource(screen.titleId),
+            color = Color.White,
+            fontSize = 10.sp,
+            fontWeight = FontWeight.SemiBold,
+            letterSpacing = (-0.1).sp,
+            maxLines = 1,
+            softWrap = false,
+            modifier = Modifier.graphicsLayer {
+                val l = lit().coerceIn(0f, 1f)
+                alpha = l
+                translationY = 17.dp.toPx() + (1f - l) * 4.dp.toPx()
+            },
         )
     }
 }

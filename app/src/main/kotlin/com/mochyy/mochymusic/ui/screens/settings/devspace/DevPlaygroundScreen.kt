@@ -59,6 +59,7 @@ fun DevPlaygroundScreen(navController: NavController) {
                         stats?.closedTotal to stringResource(R.string.dev_resolved_issue),
                     ),
                 settled = settled,
+                progress = stats?.takeIf { it.reportedTotal > 0 }?.let { it.closedTotal.toFloat() / it.reportedTotal },
             )
             RepoIssuesSection(stats = stats, loading = loading, error = error, onRetry = { reload++ })
             Spacer(Modifier.height(6.dp))

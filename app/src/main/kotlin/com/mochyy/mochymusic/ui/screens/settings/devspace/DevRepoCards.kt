@@ -137,6 +137,8 @@ internal fun RepoFiguresCard(
     modifier: Modifier = Modifier,
     subtitle: String? = null,
     showChevron: Boolean = false,
+    /** 0..1, draws a thin bar under the tiles (for example the share of issues that are resolved) */
+    progress: Float? = null,
 ) {
     DevPanel(modifier) {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -177,6 +179,20 @@ internal fun RepoFiguresCard(
                     }
                 }
             }
+        }
+        if (progress != null) {
+            Spacer(Modifier.height(14.dp))
+            Box(Modifier.fillMaxWidth().height(6.dp).clip(CircleShape).background(Color.White.copy(alpha = 0.1f))) {
+                Box(
+                    Modifier
+                        .fillMaxWidth(progress.coerceIn(0f, 1f))
+                        .height(6.dp)
+                        .clip(CircleShape)
+                        .background(FigureAccents[0]),
+                )
+            }
+            Spacer(Modifier.height(6.dp))
+            Text("${(progress.coerceIn(0f, 1f) * 100).toInt()}%", style = devText(12f, FontWeight.SemiBold, DevLinkText, 0f))
         }
     }
 }

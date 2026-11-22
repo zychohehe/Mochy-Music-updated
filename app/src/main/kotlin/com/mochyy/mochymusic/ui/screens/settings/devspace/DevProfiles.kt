@@ -83,11 +83,6 @@ internal val DevPeople = listOf(
             DevSocial("WhatsApp Channel", WhatsAppUrl, "Updates and news", null),
         ).filter { it.url.isNotBlank() },
     ),
-    DevPerson(
-        name = "a2unknowwn",
-        bio = "contributor. thanks for helping Mochy grow!",
-        avatar = R.drawable.dev_a2unknowwn,
-    ),
 )
 
 /** someone's picture, round, on the mock's light grey */

@@ -56,14 +56,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          # arm64 is what nearly every phone made since 2016 runs: the lightest, fastest build
+          # one APK only. arm64 is what nearly every phone made since 2016 runs: the lightest, fastest build
           - abi: arm64
             task: assembleArm64FossRelease
             dir: arm64Foss
-          # universal works on every device, 32-bit and emulators included
-          - abi: universal
-            task: assembleUniversalFossRelease
-            dir: universalFoss
     steps:
       - uses: actions/checkout@v5
 

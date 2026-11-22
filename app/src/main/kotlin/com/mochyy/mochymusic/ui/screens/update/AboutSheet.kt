@@ -92,14 +92,6 @@ private data class LicenseEntry(
     val url: String,
 )
 
-@Immutable
-private data class ContributorEntry(
-    val login: String,
-    val avatarUrl: String,
-    val devSpaceIndex: Int,
-    @DrawableRes val fallbackRes: Int? = null,
-)
-
 private val LeadDevs =
     listOf(
         LeadDevEntry(
@@ -236,17 +228,6 @@ private val Licenses =
         ),
     )
 
-// contributors: a2unknowwn, opens their page in dev spaces (static, so opening About never waits on the network)
-private val Contributors =
-    listOf(
-        ContributorEntry(
-            login = "a2unknowwn",
-            avatarUrl = "",
-            devSpaceIndex = 1,
-            fallbackRes = R.drawable.dev_a2unknowwn,
-        ),
-    )
-
 // github redirects username.png straight to the user's current avatar without counting against the api rate limit
 private fun githubAvatarUrl(githubUser: String): String = "https://github.com/$githubUser.png?size=160"
 
@@ -280,7 +261,6 @@ private fun ColumnScope.AboutSheetContent(
     val installed = shortVersion(BuildConfig.VERSION_NAME)
     val scrollState = rememberScrollState()
     val ringScrollRangePx = with(LocalDensity.current) { 180.dp.toPx() }
-    val contributors = Contributors
 
     Box(Modifier.fillMaxWidth()) {
         // zero-size layout places the spinning ring behind the top icon without pushing the column down
@@ -441,28 +421,6 @@ private fun ColumnScope.AboutSheetContent(
                 onClick = { popup.showLicenseSheet() },
             )
 
-            Spacer(Modifier.height(18.dp))
-            SectionHeader(stringResource(R.string.about_cool_contributors))
-            Spacer(Modifier.height(8.dp))
-            Column(
-                modifier =
-                    Modifier
-                        .fillMaxWidth()
-                        .clip(RoundedCornerShape(24.dp))
-                        .background(MenuRowSurface)
-                        .padding(vertical = 6.dp),
-            ) {
-                contributors.forEach { contributor ->
-                    PersonRow(
-                        name = contributor.login,
-                        subtitle = null,
-                        avatarUrl = contributor.avatarUrl,
-                        fallbackRes = contributor.fallbackRes,
-                        showArrow = true,
-                        onClick = { onOpenDevSpace(contributor.devSpaceIndex) },
-                    )
-                }
-            }
             Spacer(Modifier.height(8.dp))
         }
     }
@@ -540,13 +498,23 @@ private fun ColumnScope.LicenseSheetContent() {
 
 @Composable
 private fun SectionHeader(title: String) {
-    Text(
-        text = title,
-        fontSize = 15.sp,
-        fontWeight = FontWeight.SemiBold,
-        letterSpacing = (-0.3).sp,
-        color = Color.White.copy(alpha = 0.55f),
-    )
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        Box(
+            Modifier
+                .width(3.dp)
+                .height(14.dp)
+                .clip(RoundedCornerShape(50))
+                .background(Color.White.copy(alpha = 0.85f)),
+        )
+        Spacer(Modifier.width(8.dp))
+        Text(
+            text = title,
+            fontSize = 15.sp,
+            fontWeight = FontWeight.Bold,
+            letterSpacing = (-0.3).sp,
+            color = Color.White.copy(alpha = 0.78f),
+        )
+    }
 }
 
 @Composable
@@ -603,6 +571,13 @@ private fun AboutCardButton(
             letterSpacing = (-0.4).sp,
             maxLines = 1,
             overflow = TextOverflow.Ellipsis,
+            modifier = Modifier.padding(end = 28.dp),
+        )
+        Icon(
+            painter = painterResource(R.drawable.navigate_next),
+            contentDescription = null,
+            tint = Color.White.copy(alpha = 0.6f),
+            modifier = Modifier.align(Alignment.CenterEnd).size(20.dp),
         )
     }
 }
