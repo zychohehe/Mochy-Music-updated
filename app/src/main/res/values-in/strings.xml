@@ -322,8 +322,6 @@
     <string name="bluetooth_headphones">Headphone Bluetooth</string>
     <string name="license">GNU General Public License v3.0</string>
     <string name="standard_lyrics_blur">Buram lirik standar</string>
-    <string name="listen_together_smart_resync">Sinkronisasi ulang jaringan otomatis</string>
-    <string name="listen_together_smart_resync_desc">Secara otomatis menyusul posisi host setelah koneksi terputus</string>
     <string name="error_stream_unavailable_title">Lagu ini tidak dapat diputar</string>
     <string name="playback_error_channel_name">Kesalahan pemutaran</string>
 </resources>

@@ -353,8 +353,6 @@
     <string name="bluetooth_headphones">블루투스 헤드폰</string>
     <string name="license">GNU 일반 공중 사용 허가서 v3.0</string>
     <string name="standard_lyrics_blur">기본 가사 흐림 효과</string>
-    <string name="listen_together_smart_resync">스마트 네트워크 재동기화</string>
-    <string name="listen_together_smart_resync_desc">연결이 끊겼다가 복구되면 호스트의 재생 위치를 자동으로 따라갑니다</string>
     <string name="error_stream_unavailable_title">이 곡을 재생할 수 없습니다</string>
     <string name="playback_error_channel_name">재생 오류</string>
     <string name="playing_music_video_audio">YouTube에서 곡을 재생할 수 없어 뮤직비디오의 오디오를 대신 재생합니다</string>

@@ -125,7 +125,6 @@ import com.mochyy.mochymusic.db.entities.Song
 import com.mochyy.mochymusic.extensions.toMediaItem
 import com.mochyy.mochymusic.LocalPlayerAwareWindowInsets
 import com.mochyy.mochymusic.LocalPlayerConnection
-import com.mochyy.mochymusic.together.ListenTogetherHeaderButton
 import com.mochyy.mochymusic.models.ArtistGroup
 import com.mochyy.mochymusic.models.toMediaMetadata
 import com.mochyy.mochymusic.playback.queues.ListQueue
@@ -1872,7 +1871,6 @@ fun HomeScreen(
                         horizontalArrangement = Arrangement.spacedBy(10.dp),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        ListenTogetherHeaderButton()
                         Box(
                             modifier = Modifier
                                 .launchRise(order = 0, distance = HomeTopBarRise)

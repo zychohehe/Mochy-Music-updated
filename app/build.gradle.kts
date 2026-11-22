@@ -30,7 +30,7 @@ extensions.configure<ApplicationExtension> {
         // CI passes -PbuildNumber / -PversionCodeOverride so every automatic release is newer than the last
         // one (the in-app updater compares them); local builds keep the defaults
         versionCode = (project.findProperty("versionCodeOverride") as String?)?.toIntOrNull() ?: 73
-        versionName = "8.4.3 build#${(project.findProperty("buildNumber") as String?)?.toIntOrNull() ?: 1280}"
+        versionName = "5.5.0 build#${(project.findProperty("buildNumber") as String?)?.toIntOrNull() ?: 1280}"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
@@ -420,7 +420,7 @@ dependencies {
     implementation(libs.media3.dash)
     implementation(libs.media3.ui)
     implementation(libs.media3.okhttp)
-    // listen together: the same OkHttp version innertube already pulls in, used directly for the WebSocket
+    // OkHttp, the same version innertube already pulls in
     implementation("com.squareup.okhttp3:okhttp:5.3.2")
     // ffmpeg decodes alac (and flac, opus...) on phones that have no decoder of their own for it
     implementation(libs.media3.ffmpeg)
@@ -489,6 +489,8 @@ dependencies {
     implementation(libs.androidx.webkit)
 
     testImplementation(libs.junit)
+    // the JVM unit tests need a real org.json: the one in android.jar is only stubs
+    testImplementation("org.json:json:20240303")
     androidTestImplementation(libs.junit)
     androidTestImplementation("androidx.test:runner:1.6.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")

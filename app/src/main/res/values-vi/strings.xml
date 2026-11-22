@@ -316,8 +316,6 @@
     <string name="audio_devices">Thiết bị âm thanh</string>
     <string name="bluetooth_headphones">Tai nghe Bluetooth</string>
     <string name="standard_lyrics_blur">Làm mờ lời bài hát tiêu chuẩn</string>
-    <string name="listen_together_smart_resync">Đồng bộ lại mạng thông minh</string>
-    <string name="listen_together_smart_resync_desc">Tự động bắt kịp chủ phòng sau khi mất kết nối</string>
     <string name="error_stream_unavailable_title">Không thể phát bài hát này</string>
     <string name="playback_error_channel_name">Lỗi phát nhạc</string>
     <string name="playing_music_video_audio">YouTube không phát bài hát này, nên bạn đang nghe âm thanh từ video nhạc của nó</string>

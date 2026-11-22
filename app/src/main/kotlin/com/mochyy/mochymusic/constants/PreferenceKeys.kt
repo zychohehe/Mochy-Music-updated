@@ -250,6 +250,7 @@ val InfiniteQueueKey = booleanPreferencesKey("infiniteQueue")
 
 val SetupCompletedKey = booleanPreferencesKey("setupCompleted")
 val UsernameKey = stringPreferencesKey("username")
+
 val ProfilePicUriKey = stringPreferencesKey("profilePicUri")
 val AutoDownloadOnLikeKey = booleanPreferencesKey("autoDownloadOnLike")
 val SimilarContent = booleanPreferencesKey("similarContent")

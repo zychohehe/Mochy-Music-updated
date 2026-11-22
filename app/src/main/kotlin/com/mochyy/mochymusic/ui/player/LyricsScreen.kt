@@ -168,13 +168,13 @@ private class LyricsListPadding : PaddingValues {
 
 private const val ImmersiveDelayMs = 3_500L
 
-private const val RecenterDurationMs = 950
+private const val RecenterDurationMs = 900
 
 /** Shared with LyricsInterludeDots, whose collapse has to run in step with the recenter scroll. */
 internal const val LyricsRecenterDurationMs = RecenterDurationMs
 
-/** Style 2's recenter curve (the original). */
-internal val LyricsRecenterEasing = CubicBezierEasing(0.5f, 0.45f, 0f, 1f)
+/** Style 2's recenter curve: the same soft ease-in-out as style 1, so no style gets a kick when the line changes. */
+internal val LyricsRecenterEasing = CubicBezierEasing(0.42f, 0f, 0.16f, 1f)
 
 /**
  * Style 1's recenter curve: eases in instead of starting at speed, so the list never gets a kick

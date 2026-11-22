@@ -263,7 +263,8 @@ fun LyricsGlowLine(
     val targetScale = restingScaleOf(state)
 
     // every ease below starts only when its target changes, so the page's lines mount without six coroutines each
-    val animSpec = tween<Float>(durationMillis = 600)
+    // same curve as the list's recenter scroll, so fade, zoom and scroll all move as one
+    val animSpec = tween<Float>(durationMillis = 700, easing = LyricsSmoothRecenterEasing)
     val alpha by com.mochyy.mochymusic.ui.utils.animateFloatOnChange(targetAlpha, animSpec)
     val scale by com.mochyy.mochymusic.ui.utils.animateFloatOnChange(targetScale, animSpec)
     // how sung the line is: the wave's strength, and the plain copy's share while it soft-lights
@@ -284,14 +285,14 @@ fun LyricsGlowLine(
 
     val blurRadius by com.mochyy.mochymusic.ui.utils.animateFloatOnChange(
         target = BlurStageRadii[blurStage.coerceIn(0, BlurStageRadii.lastIndex)],
-        spec = tween(durationMillis = 350),
+        spec = tween(durationMillis = 600, easing = LyricsSmoothRecenterEasing),
     )
 
     val baseColor = LocalContentColor.current
     // eased with the alpha and scale, and read only while drawing so the fade doesn't recompose the line every frame
     val lineColor = com.mochyy.mochymusic.ui.utils.animateColorOnChange(
         target = if (state == LyricsLineState.ACTIVE) Color.White else baseColor,
-        spec = tween(durationMillis = 600),
+        spec = tween(durationMillis = 700, easing = LyricsSmoothRecenterEasing),
     )
     val textColor = remember(lineColor) { ColorProducer { lineColor.value } }
     val unsungAlpha = if (blend != null) TintedUnsungAlpha else ActiveUnsungAlpha
@@ -330,6 +331,8 @@ fun LyricsGlowLine(
         lineHeight = if (hasRuby) (LyricsLineHeight.value + RubyHeadroomSp).sp else LyricsLineHeight,
         lineHeightStyle = if (hasRuby) rubyLineHeightStyle(rubyPlacement) else null,
         textAlign = textAlign,
+        // balanced breaks: a wrapped line splits into even rows instead of one long row and a lone word
+        lineBreak = androidx.compose.ui.text.style.LineBreak.Heading,
     ).withLetterMotionFeatures(wordMotion)
     // kept above the sweep/plain switch, so the line already has its bold breaks the moment it goes plain again
     val steadyWrap = rememberSteadyWrap(leadText, leadStyle.copy(fontWeight = LyricsSungWeight))
