@@ -279,7 +279,7 @@
     <string name="backup_create_failed">Nepodařilo se vytvořit zálohu</string>
     <string name="restore_failed">Nepodařilo se obnovit zálohu</string>
     <string name="discord_integration">Integrace Discordu</string>
-    <string name="discord_information">mochy používá knihovnu KizzyRPC, aby mohl nastavit váš stav na Discordu. Tato funkce zahrnuje připojení k bráně Discord, což může být považováno za porušení podmínek společnosti Discord. Neexistují nicméně žádné známé případy uzamčení účtu z tohoto důvodu. Používejte na vlastní nebezpečí. \n \nmochy pouze extrahuje váš token, vše ostatní je uloženo lokálně.</string>
+    <string name="discord_information">kiyo používá knihovnu KizzyRPC, aby mohl nastavit váš stav na Discordu. Tato funkce zahrnuje připojení k bráně Discord, což může být považováno za porušení podmínek společnosti Discord. Neexistují nicméně žádné známé případy uzamčení účtu z tohoto důvodu. Používejte na vlastní nebezpečí. \n \nkiyo pouze extrahuje váš token, vše ostatní je uloženo lokálně.</string>
     <string name="dismiss">Zavřít</string>
     <string name="options">Možnosti</string>
     <string name="preview">Náhled</string>

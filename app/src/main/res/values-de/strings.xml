@@ -270,7 +270,7 @@
     <string name="backup_create_failed">Konnte keine Sicherung erstellen</string>
     <string name="restore_failed">Wiederherstellung der Sicherung fehlgeschlagen</string>
     <string name="discord_integration">Discord-Integration</string>
-    <string name="discord_information">mochy verwendet die KizzyRPC-Bibliothek, um den Status deines Discord-Kontos zu setzen. Dazu wird die Discord-Gateway-Verbindung verwendet, was als Verstoß gegen die AGB von Discord angesehen werden kann. Es sind jedoch keine Fälle bekannt, in denen Benutzerkonten aus diesem Grund gesperrt wurden. Die Verwendung erfolgt auf eigene Gefahr.\n\nmochy extrahiert nur dein Token, alles andere wird lokal gespeichert.</string>
+    <string name="discord_information">kiyo verwendet die KizzyRPC-Bibliothek, um den Status deines Discord-Kontos zu setzen. Dazu wird die Discord-Gateway-Verbindung verwendet, was als Verstoß gegen die AGB von Discord angesehen werden kann. Es sind jedoch keine Fälle bekannt, in denen Benutzerkonten aus diesem Grund gesperrt wurden. Die Verwendung erfolgt auf eigene Gefahr.\n\nkiyo extrahiert nur dein Token, alles andere wird lokal gespeichert.</string>
     <string name="dismiss">Ablehnen</string>
     <string name="options">Optionen</string>
     <string name="preview">Vorschau</string>

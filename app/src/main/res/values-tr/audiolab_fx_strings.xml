@@ -31,7 +31,7 @@
     <string name="fx_mono_title">Mono ses</string>
     <string name="fx_mono_sub">İki kulak da tüm miksi duyar: tek kulaklık için veya tek kulakla duymak için</string>
     <string name="fx_atmos_title">Dolby Atmos ve sarmal ses</string>
-    <string name="fx_atmos_sub">5.1, 7.1 ve Atmos tabanlarını herhangi bir kulaklıkta Mochy\'nin kafa modeliyle 3D ses olarak çalar, stereoya katlamak yerine. Sonraki şarkıdan itibaren.</string>
+    <string name="fx_atmos_sub">5.1, 7.1 ve Atmos tabanlarını herhangi bir kulaklıkta Kiyo\'nin kafa modeliyle 3D ses olarak çalar, stereoya katlamak yerine. Sonraki şarkıdan itibaren.</string>
     <string name="fx_atmos_decoder">Atmos kod çözücü</string>
     <string name="fx_atmos_spatializer">Android uzamsallaştırması</string>
     <string name="fx_atmos_yes">Evet</string>
@@ -61,7 +61,7 @@
     <string name="fx_curve_steep">Dik</string>
     <string name="fx_curve">Eğri</string>
     <string name="fx_volume_limit">Ses sınırı</string>
-    <string name="fx_volume_note">Mochy\'nin kendi sesini (oynatıcının kaydırıcısı, solmalar ve bastırmalar) şekillendirir. Sınır, uygulamanın asla aşamayacağı yüksekliği belirler.</string>
+    <string name="fx_volume_note">Kiyo\'nin kendi sesini (oynatıcının kaydırıcısı, solmalar ve bastırmalar) şekillendirir. Sınır, uygulamanın asla aşamayacağı yüksekliği belirler.</string>
     <string name="fx_reverb_title">Yankı</string>
     <string name="fx_reverb_sub">Müziğe yankı ekle</string>
     <string name="fx_reverb_room">Oda</string>

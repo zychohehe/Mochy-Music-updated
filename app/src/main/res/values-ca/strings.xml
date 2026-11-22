@@ -279,7 +279,7 @@
     <string name="backup_create_failed">No s’ha pogut crear la còpia de seguretat</string>
     <string name="restore_failed">No s’ha pogut restaurar la còpia de seguretat</string>
     <string name="discord_integration">Integració amb el Discord</string>
-    <string name="discord_information">mochy utilitza la biblioteca KizzyRPC per establir l\'estat del vostre compte de Discord. Això implica utilitzar la connexió Discord Gateway, la qual cosa es pot considerar una violació de les condicions del servei de Discord. No obstant això, no hi ha casos coneguts d\'usuaris que hagin estat suspesos pel motiu. L\'ús és sota la vostra responsabilitat.\n\nmochy només extreu el vostre \"token\", i la resta es desa localment.</string>
+    <string name="discord_information">kiyo utilitza la biblioteca KizzyRPC per establir l\'estat del vostre compte de Discord. Això implica utilitzar la connexió Discord Gateway, la qual cosa es pot considerar una violació de les condicions del servei de Discord. No obstant això, no hi ha casos coneguts d\'usuaris que hagin estat suspesos pel motiu. L\'ús és sota la vostra responsabilitat.\n\nkiyo només extreu el vostre \"token\", i la resta es desa localment.</string>
     <string name="dismiss">Ignora</string>
     <string name="options">Opcions</string>
     <string name="preview">Previsualitza</string>

@@ -25,6 +25,6 @@
     <string name="import_notice_many_failed">Couldn\'t re-sync %1$s</string>
     <string name="import_notice_preview_failed">Failed to preview CSV file</string>
     <string name="media_info_copied">%1$s copied</string>
-    <string name="update_notice_available">Mochy %1$s is out</string>
+    <string name="update_notice_available">Kiyo %1$s is out</string>
     <string name="update_notice_details">Tap to see what\'s new.</string>
 </resources>

@@ -199,7 +199,7 @@
     <string name="ps_action_download">다운로드</string>
     <string name="ps_action_add_to_playlist">재생목록에 추가</string>
     <string name="ps_extras_screen_can_sleep">화면이 다시 자동으로 꺼집니다</string>
-    <string name="ps_extras_screen_stays_on">Mochy가 열려 있는 동안 화면이 켜져 있습니다</string>
+    <string name="ps_extras_screen_stays_on">Kiyo가 열려 있는 동안 화면이 켜져 있습니다</string>
     <string name="ps_extras_download_removed">다운로드한 파일을 삭제했습니다</string>
     <string name="ps_extras_download_stopped">다운로드가 중지되었습니다</string>
     <string name="ps_extras_downloading">\"%1$s\" 다운로드 중</string>

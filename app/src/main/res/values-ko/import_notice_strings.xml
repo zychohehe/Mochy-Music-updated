@@ -21,6 +21,6 @@
     <string name="import_notice_many_failed">다시 동기화하지 못했습니다: %1$s</string>
     <string name="import_notice_preview_failed">CSV 파일을 미리 볼 수 없습니다</string>
     <string name="media_info_copied">복사했습니다: %1$s</string>
-    <string name="update_notice_available">Mochy %1$s 업데이트가 있습니다</string>
+    <string name="update_notice_available">Kiyo %1$s 업데이트가 있습니다</string>
     <string name="update_notice_details">변경 사항을 확인하려면 누르세요.</string>
 </resources>

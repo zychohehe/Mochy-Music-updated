@@ -12,14 +12,14 @@
     <string name="module_origin_app">Aplikasi modul · v%1$s</string>
     <string name="module_origin_web">Dari tautan · v%1$s</string>
     <string name="modules_find_more">Cari sumber lain</string>
-    <string name="modules_find_more_body">Modul adalah layanan yang dijalankan orang lain. Mochy hanya memintanya lagu, lirik, atau tampilan, dan ia tidak bisa menyentuh bagian lain aplikasi.</string>
+    <string name="modules_find_more_body">Modul adalah layanan yang dijalankan orang lain. Kiyo hanya memintanya lagu, lirik, atau tampilan, dan ia tidak bisa menyentuh bagian lain aplikasi.</string>
     <string name="modules_add_from_link">Tambahkan dari tautan</string>
     <string name="modules_link_hint">https://…</string>
     <string name="modules_link_check">Periksa tautan</string>
     <string name="modules_link_checking">Memeriksa…</string>
     <string name="modules_link_not_a_link">Itu sepertinya bukan tautan. Seharusnya diawali https://</string>
     <string name="modules_link_unreachable">Tidak bisa menghubungi tautan itu. Periksa tautan dan koneksimu, lalu coba lagi.</string>
-    <string name="modules_link_not_a_module">Tautan itu menjawab, tapi bukan modul yang bisa dipakai Mochy.</string>
+    <string name="modules_link_not_a_module">Tautan itu menjawab, tapi bukan modul yang bisa dipakai Kiyo.</string>
     <string name="modules_catalog">Dari katalog</string>
     <string name="modules_catalog_failed">Tidak bisa memuat katalog. Periksa koneksimu lalu buka ini lagi.</string>
     <string name="modules_catalog_empty">Katalog masih kosong. Tempel tautan modul di atas untuk menambahkannya.</string>

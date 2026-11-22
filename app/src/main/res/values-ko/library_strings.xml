@@ -41,7 +41,7 @@
     <string name="lib_manage_imports_pill">가져온 항목 관리</string>
     <string name="lib_manage_local_pill">기기 음악 관리</string>
     <string name="lib_local_or">또는</string>
-    <string name="lib_local_let_read">Mochy가 저장공간을 읽고 모든 곡을 찾도록 허용하세요</string>
+    <string name="lib_local_let_read">Kiyo가 저장공간을 읽고 모든 곡을 찾도록 허용하세요</string>
     <string name="lib_local_import_here">여기에서 기기의 음악을 가져오세요</string>
     <string name="lib_local_imported_from_local">기기에서 가져옴</string>
     <string name="lib_import_banner_title">여기에서 음악을 가져오세요!</string>
@@ -51,7 +51,7 @@
     <string name="lib_import_adding_from">%3$s에서 %2$d곡 중 %1$d곡 추가 중</string>
     <string name="lib_import_adding">%2$d곡 중 %1$d곡 추가 중</string>
     <string name="lib_import_still_running">가져오기가 진행 중입니다. 완료 후 다시 시도하세요.</string>
-    <string name="lib_local_no_access">접근 권한이 없으면 Mochy가 음악을 찾을 수 없습니다</string>
+    <string name="lib_local_no_access">접근 권한이 없으면 Kiyo가 음악을 찾을 수 없습니다</string>
     <string name="lib_local_no_new_songs">음악 폴더에 새 곡이 없습니다</string>
     <plurals name="lib_local_repaired">
         <item quantity="one">%1$d곡의 제목, 가사 또는 커버를 수정했습니다</item>

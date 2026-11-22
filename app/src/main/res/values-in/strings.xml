@@ -299,7 +299,7 @@
     <string name="backup_create_failed">Tidak dapat membuat cadangan</string>
     <string name="restore_failed">Gagal memulihkan cadangan</string>
     <string name="discord_integration">Integrasi Discord</string>
-    <string name="discord_information">mochy menggunakan pustaka KizzyRPC untuk mengatur status akun Discord Anda. Hal ini melibatkan penggunaan sambungan Discord Gateway, yang dapat dianggap sebagai pelanggaran TOS Discord. Namun, tidak ada kasus yang diketahui tentang akun pengguna yang ditangguhkan karena alasan ini. Gunakan dengan risiko Anda sendiri.\n\nmochy hanya akan mengekstrak token Anda, dan yang lainnya disimpan secara lokal.</string>
+    <string name="discord_information">kiyo menggunakan pustaka KizzyRPC untuk mengatur status akun Discord Anda. Hal ini melibatkan penggunaan sambungan Discord Gateway, yang dapat dianggap sebagai pelanggaran TOS Discord. Namun, tidak ada kasus yang diketahui tentang akun pengguna yang ditangguhkan karena alasan ini. Gunakan dengan risiko Anda sendiri.\n\nkiyo hanya akan mengekstrak token Anda, dan yang lainnya disimpan secara lokal.</string>
     <string name="dismiss">Singkirkan</string>
     <string name="options">Pilihan</string>
     <string name="preview">Pratinjau</string>

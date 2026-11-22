@@ -20,7 +20,7 @@
     <string name="installing_system_update">Sistem\ngüncellemesi yükleniyor…</string>
     <string name="making_update_ready">Güncelleme hazırlanıyor, bu biraz zaman alabilir</string>
     <string name="your_app_getting_better">Uygulamanız daha da iyiye gidiyor…</string>
-    <string name="update_includes_features">Bu güncelleme, mochy-music %1$s\'den yeni özellikler ve en son güncellemeleri içeriyor, bu da uygulamanızı daha da kullanışlı hale getiriyor. Daha fazla bilgi için %2$s adresini ziyaret edin.</string>
+    <string name="update_includes_features">Bu güncelleme, kiyo-music %1$s\'den yeni özellikler ve en son güncellemeleri içeriyor, bu da uygulamanızı daha da kullanışlı hale getiriyor. Daha fazla bilgi için %2$s adresini ziyaret edin.</string>
     <string name="whats_new">Yeni neler var?</string>
     <string name="update_available">Güncelleme mevcut</string>
     <string name="checking_for_updates">Güncellemeler kontrol ediliyor…</string>
@@ -35,7 +35,7 @@
     <string name="mobile_network_warning">Mobil ağ üzerinden veya dolaşımdayken güncelleme indirmek ek ücretlere neden olabilir.</string>
     <string name="update_size">Güncelleme boyutu: %1$s MB</string>
     <string name="check_internet_connection">İnternet bağlantını kontrol edip tekrar dene</string>
-    <string name="mochy_music_version">mochy MUSIC versiyon %1$s</string>
+    <string name="kiyo_music_version">kiyo MUSIC versiyon %1$s</string>
     <string name="last_checked">Son kontrol: %1$s</string>
     <string name="install">Yükle</string>
     <string name="check_for_update">Güncelleme kontrol et</string>
@@ -51,12 +51,12 @@
     <string name="update_notifications_subtitle">Yeni bir güncelleme bulunduğunda bir bildirim göster</string>
     <string name="settings_check_updates_title">Güncellemeleri denetle</string>
     <string name="later">Sonra</string>
-    <string name="mochy_music_title">mochy MUSIC</string>
+    <string name="kiyo_music_title">kiyo MUSIC</string>
     <string name="developer_section">GELİŞTİRİCİ</string>
     <string name="collaborator_section">İŞBİRLİKÇİ</string>
     <string name="app_info_section">UYGULAMA BİLGİSİ</string>
     <string name="community_section">TOPLULUK</string>
-    <string name="developer_name">mochyDH P ASHOKAN</string>
+    <string name="developer_name">kiyoDH P ASHOKAN</string>
     <string name="app_developer">Uygulama Geliştiricisi</string>
     <string name="website">Web sitesi</string>
     <string name="collaborator_tboyke">T-Boyke</string>
@@ -90,5 +90,5 @@
     <string name="channel_release_warning">Bir sonraki sürümü güncelleme olarak alırsın ve gece sürümleri görünmez olur.</string>
     <string name="channel_yes">Evet</string>
     <string name="channel_no">Hayır</string>
-    <string name="update_allow_unknown_apps">Ayarlar\'da Mochy\'nin bilinmeyen uygulamaları yüklemesine izin ver, sonra geri gel ve buradaki Yükle\'ye tekrar bas.</string>
+    <string name="update_allow_unknown_apps">Ayarlar\'da Kiyo\'nin bilinmeyen uygulamaları yüklemesine izin ver, sonra geri gel ve buradaki Yükle\'ye tekrar bas.</string>
 </resources>

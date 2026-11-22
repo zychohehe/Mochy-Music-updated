@@ -121,7 +121,7 @@ jobs:
         run: |
           mkdir -p dist
           APK=$(ls app/build/outputs/apk/${{ matrix.dir }}/release/*.apk | head -1)
-          cp "$APK" "dist/Mochy-Music_v${{ needs.meta.outputs.version }}_build${{ needs.meta.outputs.build }}_${{ matrix.abi }}.apk"
+          cp "$APK" "dist/Kiyo_v${{ needs.meta.outputs.version }}_build${{ needs.meta.outputs.build }}_${{ matrix.abi }}.apk"
           ls -lh dist
 
       - uses: actions/upload-artifact@v4

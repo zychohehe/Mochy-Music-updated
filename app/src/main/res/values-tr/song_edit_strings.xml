@@ -46,7 +46,7 @@
     <string name="song_edit_year">Yıl</string>
     <string name="song_edit_year_hint">Çıkış yılı</string>
     <string name="song_edit_video">Video</string>
-    <string name="song_edit_video_auto">Mochy tarafından bulundu</string>
+    <string name="song_edit_video_auto">Kiyo tarafından bulundu</string>
     <string name="song_edit_video_picked">Senin seçtiğin</string>
     <string name="song_edit_video_none">Video yok</string>
     <string name="song_edit_saving">Kaydediliyor…</string>
@@ -57,7 +57,7 @@
     <string name="video_pick_title">Video seç</string>
     <string name="video_pick_subtitle">Yanlış video mu? Yoksa hiç yok mu?</string>
     <string name="video_pick_search">YouTube videolarında ara</string>
-    <string name="video_pick_auto">Mochy bulsun</string>
+    <string name="video_pick_auto">Kiyo bulsun</string>
     <string name="video_pick_auto_desc">Varsa resmi video</string>
     <string name="video_pick_none">Video yok</string>
     <string name="video_pick_none_desc">Bu şarkı sadece kapağını gösterir</string>

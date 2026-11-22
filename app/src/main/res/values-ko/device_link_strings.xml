@@ -13,7 +13,7 @@
     <string name="devices_status_controlling">여기에서 제어 중</string>
     <string name="devices_status_connected_detail">서로 제어할 수 있습니다</string>
     <string name="devices_stay_reachable">백그라운드에서 연결 유지</string>
-    <string name="devices_stay_reachable_detail">Mochy를 닫아도 기기 간 동기화, 스트리밍 및 제어가 가능합니다. 무음 알림이 표시됩니다.</string>
+    <string name="devices_stay_reachable_detail">Kiyo를 닫아도 기기 간 동기화, 스트리밍 및 제어가 가능합니다. 무음 알림이 표시됩니다.</string>
     <string name="devices_in_player_menu">플레이어 메뉴에 내 기기 표시</string>
     <string name="devices_in_player_menu_detail">플레이어 메뉴에서 다른 기기로 재생하거나 곡을 대기열에 추가하고 제어할 수 있습니다</string>
     <string name="devices_notification_title">다른 기기에서 이 휴대전화에 연결할 수 있습니다</string>
@@ -27,7 +27,7 @@
     <string name="devices_remote_control_tv_detail">이 휴대전화에서 재생, 곡 건너뛰기 및 설정 변경</string>
     <string name="devices_remote_control_phone_detail">어느 휴대전화에서든 서로 재생, 곡 건너뛰기 및 설정 변경</string>
     <string name="devices_auto_control">연결 시 자동으로 제어</string>
-    <string name="devices_auto_control_detail">해당 기기에서 Mochy를 열면 이 휴대전화가 즉시 리모컨이 됩니다</string>
+    <string name="devices_auto_control_detail">해당 기기에서 Kiyo를 열면 이 휴대전화가 즉시 리모컨이 됩니다</string>
     <string name="devices_stream_local">이 기기의 음악 스트리밍</string>
     <string name="devices_stream_local_detail">이 휴대전화의 다운로드한 곡과 곡 파일을 해당 기기에서 바로 재생합니다</string>
     <string name="devices_override_library">기기 보관함 덮어쓰기</string>
@@ -39,7 +39,7 @@
     <string name="devices_pairing_code">페어링 모드 코드</string>
     <string name="devices_detected">발견한 기기</string>
     <string name="devices_looking">기기를 찾는 중…</string>
-    <string name="devices_looking_detail">다른 휴대전화에서 기기 추가를 열거나 TV의 Mochy에서 휴대전화 페이지를 여세요</string>
+    <string name="devices_looking_detail">다른 휴대전화에서 기기 추가를 열거나 TV의 Kiyo에서 휴대전화 페이지를 여세요</string>
     <string name="devices_connect">연결</string>
     <string name="devices_or">또는</string>
     <string name="devices_enter_code">코드 입력</string>
@@ -49,13 +49,13 @@
     <string name="devices_wrong_code">코드가 일치하지 않습니다. 다른 기기의 화면을 확인하고 다시 시도하세요.</string>
     <string name="devices_pair_full">둘 중 한 기기에 이미 기기 10개가 연결되어 있습니다. 먼저 하나를 연결 해제하세요.</string>
     <string name="devices_pair_failed">기기에 연결할 수 없습니다. 두 기기가 같은 Wi-Fi에 연결되어 있는지 확인하세요.</string>
-    <string name="devices_pair_outdated">해당 기기의 Mochy가 이전 버전입니다. 업데이트한 후 코드를 다시 입력하세요</string>
+    <string name="devices_pair_outdated">해당 기기의 Kiyo가 이전 버전입니다. 업데이트한 후 코드를 다시 입력하세요</string>
     <string name="remote_controlling">%1$s 제어 중</string>
     <string name="remote_stop">제어 중지</string>
     <string name="remote_playing">재생 중</string>
     <string name="remote_paused">일시 중지됨</string>
     <string name="remote_connecting">재생 상태를 확인하는 중…</string>
-    <string name="remote_unreachable">지금 연결할 수 없습니다. 해당 기기에서 Mochy가 열려 있나요?</string>
+    <string name="remote_unreachable">지금 연결할 수 없습니다. 해당 기기에서 Kiyo가 열려 있나요?</string>
     <string name="remote_up_next">다음 재생</string>
     <string name="remote_hand_over">이 휴대전화의 재생 대기열을 %1$s에서 재생</string>
     <string name="remote_queued_on">%1$s의 재생 대기열에 추가됨</string>
@@ -67,7 +67,7 @@
     <string name="remote_remove_from_queue">재생 대기열에서 삭제</string>
     <string name="remote_settings_on">%1$s의 설정</string>
     <string name="remote_settings_loading">설정을 가져오는 중…</string>
-    <string name="remote_settings_failed">설정을 가져올 수 없습니다. 해당 기기에서 Mochy가 열려 있고 이 휴대전화의 제어를 허용하는지 확인하세요.</string>
+    <string name="remote_settings_failed">설정을 가져올 수 없습니다. 해당 기기에서 Kiyo가 열려 있고 이 휴대전화의 제어를 허용하는지 확인하세요.</string>
     <string name="remote_settings_retry">다시 시도</string>
     <string name="remote_setting_failed">%1$s에서 설정을 변경할 수 없습니다</string>
     <string name="remote_seconds">%1$d초</string>

@@ -16,7 +16,7 @@
     <string name="backup_waiting_browser">Finish signing in in your browser</string>
     <string name="backup_finishing_sign_in">Signing in…</string>
     <string name="backup_no_browser">There\'s no browser on this phone to sign in with.</string>
-    <string name="backup_dropbox_notice">Dropbox backup is still in testing. Only the first 500 people can connect, and Dropbox may stop new sign-ins sooner until it approves Mochy. If Dropbox won\'t let you in, WebDAV has no limit.</string>
+    <string name="backup_dropbox_notice">Dropbox backup is still in testing. Only the first 500 people can connect, and Dropbox may stop new sign-ins sooner until it approves Kiyo. If Dropbox won\'t let you in, WebDAV has no limit.</string>
     <string name="backup_disconnect">Disconnect</string>
     <string name="backup_disconnect_desc">Stop backing up to %1$s. Backups already there stay.</string>
     <string name="backup_connected_toast">Connected. Your backups go to %1$s now.</string>
@@ -31,7 +31,7 @@
     <string name="backup_uploading">Uploading… %1$d%%</string>
     <string name="backup_downloading">Downloading… %1$d%%</string>
     <string name="backup_unpacking">Unpacking… %1$d%%</string>
-    <string name="backup_restored">Restored. Mochy is restarting…</string>
+    <string name="backup_restored">Restored. Kiyo is restarting…</string>
     <string name="backup_done_toast">Backed up to %1$s</string>
     <string name="backup_last_failed">The last automatic backup didn\'t go through. %1$s</string>
     <string name="backup_restore_title">Restore a backup</string>
@@ -65,7 +65,7 @@
     </plurals>
 
     <!-- the restore sheet -->
-    <string name="backup_restore_body">Pick one. Your library, stats and settings are swapped for the ones in it, then Mochy restarts. Downloaded songs stay as they are.</string>
+    <string name="backup_restore_body">Pick one. Your library, stats and settings are swapped for the ones in it, then Kiyo restarts. Downloaded songs stay as they are.</string>
     <string name="backup_restore_loading">Looking in your cloud…</string>
     <string name="backup_restore_empty">No backups there yet.</string>
     <string name="backup_restore_item">%1$s · %2$s</string>
@@ -74,7 +74,7 @@
 
     <!-- the webdav sheet -->
     <string name="webdav_title">Connect a WebDAV server</string>
-    <string name="webdav_body">Backups go into a Mochy Backups folder at this address. Your password stays on this phone and never goes into a backup.</string>
+    <string name="webdav_body">Backups go into a Kiyo Backups folder at this address. Your password stays on this phone and never goes into a backup.</string>
     <string name="webdav_address">Server address</string>
     <string name="webdav_address_hint">https://cloud.example.com/remote.php/dav/files/you/</string>
     <string name="webdav_username_hint">Your username</string>
@@ -84,7 +84,7 @@
 
     <!-- what went wrong -->
     <string name="cloud_problem_offline">Couldn\'t reach the cloud. Check your connection and try again.</string>
-    <string name="cloud_problem_signed_out">Mochy isn\'t signed in there anymore. Sign in again to keep backing up.</string>
+    <string name="cloud_problem_signed_out">Kiyo isn\'t signed in there anymore. Sign in again to keep backing up.</string>
     <string name="cloud_problem_wrong_login">The server turned down that username or password.</string>
     <string name="cloud_problem_bad_address">That doesn\'t look like a server address.</string>
     <string name="cloud_problem_not_found">Couldn\'t find that folder on the server. Check the address.</string>

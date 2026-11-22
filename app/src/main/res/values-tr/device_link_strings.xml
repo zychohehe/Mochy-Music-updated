@@ -13,7 +13,7 @@
     <string name="devices_status_controlling">Buradan kontrol ediliyor</string>
     <string name="devices_status_connected_detail">Birbirinizi kontrol edebilirsiniz</string>
     <string name="devices_stay_reachable">Arka planda ulaşılabilir kal</string>
-    <string name="devices_stay_reachable_detail">Mochy kapalıyken bile cihazların senkronize olabilir, akış yapabilir ve kontrol edebilir. Sessiz bir bildirim gösterir.</string>
+    <string name="devices_stay_reachable_detail">Kiyo kapalıyken bile cihazların senkronize olabilir, akış yapabilir ve kontrol edebilir. Sessiz bir bildirim gösterir.</string>
     <string name="devices_in_player_menu">Cihazlarımı oynatıcı menüsünde göster</string>
     <string name="devices_in_player_menu_detail">Onlarda çal, şarkıları orada sıraya koy veya oynatıcının menüsünden kontrol et</string>
     <string name="devices_notification_title">Cihazların bu telefona ulaşabilir</string>
@@ -27,7 +27,7 @@
     <string name="devices_remote_control_tv_detail">Bu telefondan çal, atla ve ayarlarını değiştir</string>
     <string name="devices_remote_control_phone_detail">Her iki telefondan birbirinizde çal, atla ve ayarları değiştir</string>
     <string name="devices_auto_control">Bağlandığında kontrolü al</string>
-    <string name="devices_auto_control_detail">Üzerinde Mochy açılır açılmaz bu telefon onun kumandası olur</string>
+    <string name="devices_auto_control_detail">Üzerinde Kiyo açılır açılmaz bu telefon onun kumandası olur</string>
     <string name="devices_stream_local">Yerel müziği bu cihazdan akıt</string>
     <string name="devices_stream_local_detail">İndirdiklerin ve şarkı dosyaların doğrudan bu telefondan onun üzerinde çalar</string>
     <string name="devices_override_library">Cihazın kütüphanesini geçersiz kıl</string>
@@ -39,7 +39,7 @@
     <string name="devices_pairing_code">Eşleştirme modu kodu</string>
     <string name="devices_detected">Algılandı</string>
     <string name="devices_looking">Cihazlar aranıyor…</string>
-    <string name="devices_looking_detail">Diğer telefonunda Cihaz ekle\'yi veya TV\'ndeki Mochy\'de telefon sayfasını aç</string>
+    <string name="devices_looking_detail">Diğer telefonunda Cihaz ekle\'yi veya TV\'ndeki Kiyo\'de telefon sayfasını aç</string>
     <string name="devices_connect">Bağlan</string>
     <string name="devices_or">Veya</string>
     <string name="devices_enter_code">Kod gir</string>
@@ -49,13 +49,13 @@
     <string name="devices_wrong_code">Kod eşleşmedi. Diğer ekranı kontrol edip tekrar dene.</string>
     <string name="devices_pair_full">Birinizde zaten 10 cihaz var. Önce birinin bağlantısını kaldır.</string>
     <string name="devices_pair_failed">Ona ulaşılamadı. İkisinin de aynı Wi-Fi\'da olduğundan emin ol.</string>
-    <string name="devices_pair_outdated">O cihaz daha eski bir Mochy çalıştırıyor. Güncelle, sonra kodu tekrar dene</string>
+    <string name="devices_pair_outdated">O cihaz daha eski bir Kiyo çalıştırıyor. Güncelle, sonra kodu tekrar dene</string>
     <string name="remote_controlling">%1$s kontrol ediliyor</string>
     <string name="remote_stop">Kontrolü durdur</string>
     <string name="remote_playing">Çalıyor</string>
     <string name="remote_paused">Duraklatıldı</string>
     <string name="remote_connecting">Ne çaldığı soruluyor…</string>
-    <string name="remote_unreachable">Şu an ona ulaşılamıyor. Üzerinde Mochy açık mı?</string>
+    <string name="remote_unreachable">Şu an ona ulaşılamıyor. Üzerinde Kiyo açık mı?</string>
     <string name="remote_up_next">Sırada</string>
     <string name="remote_hand_over">Bu telefonun kuyruğunu %1$s üzerinde çal</string>
     <string name="remote_queued_on">%1$s üzerindeki kuyruğa eklendi</string>
@@ -67,7 +67,7 @@
     <string name="remote_remove_from_queue">Kuyruktan kaldır</string>
     <string name="remote_settings_on">%1$s üzerindeki ayarlar</string>
     <string name="remote_settings_loading">Ayarı alınıyor…</string>
-    <string name="remote_settings_failed">Ayarları alınamadı. Orada Mochy\'nin açık olduğundan ve bu telefonun kontrol etmesine izin verdiğinden emin ol.</string>
+    <string name="remote_settings_failed">Ayarları alınamadı. Orada Kiyo\'nin açık olduğundan ve bu telefonun kontrol etmesine izin verdiğinden emin ol.</string>
     <string name="remote_settings_retry">Tekrar dene</string>
     <string name="remote_setting_failed">Bu, %1$s üzerinde değiştirilemedi</string>
     <string name="remote_seconds">%1$d sn</string>

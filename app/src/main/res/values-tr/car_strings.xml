@@ -26,7 +26,7 @@
     <string name="car_pair_code">Eşleştirme kodu</string>
     <string name="car_pair_status">Durum</string>
     <string name="car_pair_how">Nasıl eşleştirilir</string>
-    <string name="car_pair_steps">Diğer telefonda Mochy\'yi açıp Ayarlar › Cihaz entegrasyonu › Cihaz ekle bölümüne git, sonra bu kodu yaz. İki telefon da aynı Wi-Fi\'da olmalı.</string>
+    <string name="car_pair_steps">Diğer telefonda Kiyo\'yi açıp Ayarlar › Cihaz entegrasyonu › Cihaz ekle bölümüne git, sonra bu kodu yaz. İki telefon da aynı Wi-Fi\'da olmalı.</string>
     <string name="car_pair_waiting">Bağlı değil. Eşleşecek bir telefon bekleniyor.</string>
     <string name="car_pair_connected">%1$s cihazına bağlandı</string>
     <plurals name="car_pair_connected_more">

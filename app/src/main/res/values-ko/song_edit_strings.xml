@@ -46,7 +46,7 @@
     <string name="song_edit_year">연도</string>
     <string name="song_edit_year_hint">발매 연도</string>
     <string name="song_edit_video">동영상</string>
-    <string name="song_edit_video_auto">Mochy가 찾음</string>
+    <string name="song_edit_video_auto">Kiyo가 찾음</string>
     <string name="song_edit_video_picked">직접 선택함</string>
     <string name="song_edit_video_none">동영상 없음</string>
     <string name="song_edit_saving">저장 중…</string>
@@ -57,7 +57,7 @@
     <string name="video_pick_title">동영상 선택</string>
     <string name="video_pick_subtitle">동영상이 잘못되었거나 없나요?</string>
     <string name="video_pick_search">YouTube 동영상 검색</string>
-    <string name="video_pick_auto">Mochy가 찾도록 하기</string>
+    <string name="video_pick_auto">Kiyo가 찾도록 하기</string>
     <string name="video_pick_auto_desc">공식 동영상이 있으면 사용합니다</string>
     <string name="video_pick_none">동영상 없음</string>
     <string name="video_pick_none_desc">이 곡은 커버만 표시합니다</string>

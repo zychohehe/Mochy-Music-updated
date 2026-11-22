@@ -123,7 +123,7 @@
     <string name="pc_resync_open_playlist">Çalma listesini aç ve oradaki menüsünden yeniden senkronize et.</string>
     <string name="pc_resync_busy">Bir içe aktarma hâlâ sürüyor. Bitince tekrar dene.</string>
     <string name="pc_resync_nothing">Çalma listelerinin hiçbiri bir müzik servisinden gelmedi, yani yeniden senkronize edilecek bir şey yok.</string>
-    <string name="pc_resync_link_hint">Bu çalma listesi, Mochy nereden geldiğini kaydetmeden önce içe aktarılmış. Yeniden senkronize, onu bağlantısıyla yeniden bulur.</string>
+    <string name="pc_resync_link_hint">Bu çalma listesi, Kiyo nereden geldiğini kaydetmeden önce içe aktarılmış. Yeniden senkronize, onu bağlantısıyla yeniden bulur.</string>
     <string name="pc_search_playlist_songs">Çalma listesindeki herhangi bir şarkıyı ara</string>
     <string name="pc_search_songs_here">Buradaki herhangi bir şarkıyı ara</string>
     <string name="pc_lock_order">Sırayı kilitle</string>
@@ -184,7 +184,7 @@
     <string name="pc_stat_speed">Hız</string>
     <string name="pc_stat_pitch">Perde</string>
     <string name="pc_stat_semitones">%1$s yarım ton</string>
-    <string name="pc_stat_rs_mochy">Mochy hi-fi, pencereli sinc (Kaiser)</string>
+    <string name="pc_stat_rs_kiyo">Kiyo hi-fi, pencereli sinc (Kaiser)</string>
     <string name="pc_stat_passband">Geçirme bandı</string>
     <string name="pc_stat_flat_to">%1$s değerine kadar düz</string>
     <string name="pc_stat_stopband">−%1$d dB durdurma bandı, 32-bit float</string>

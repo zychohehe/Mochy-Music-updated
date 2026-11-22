@@ -341,7 +341,7 @@
     <string name="backup_create_failed">Yedekleme oluşturulamadı</string>
     <string name="restore_failed">Yedekleme geri yüklenemedi</string>
     <string name="discord_integration">Discord Entegrasyonu</string>
-    <string name="discord_information">mochy, Discord durumunu ayarlamak için KizzyRPC kütüphanesini kullanır</string>
+    <string name="discord_information">kiyo, Discord durumunu ayarlamak için KizzyRPC kütüphanesini kullanır</string>
     <string name="dismiss">İptal</string>
     <string name="options">Seçenekler</string>
     <string name="preview">Ön izleme</string>

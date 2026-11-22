@@ -20,7 +20,7 @@ Opsional: monitor kedua tipe **HTTP(s) - Json Query** dengan query `rooms` untuk
 
 ## Opsi 2: cron + curl
 
-Simpan sebagai `/usr/local/bin/mochy-health.sh`, lalu `chmod +x`:
+Simpan sebagai `/usr/local/bin/kiyo-health.sh`, lalu `chmod +x`:
 
 ```bash
 #!/bin/sh
@@ -29,14 +29,14 @@ WEBHOOK="https://discord.com/api/webhooks/ID/TOKEN"   # atau URL webhook lain
 
 if ! curl -fsS --max-time 10 "$URL" | grep -q '"uptimeSec"'; then
   curl -fsS -H "Content-Type: application/json" \
-    -d '{"content":"Server dengarkan bareng Mochy tidak merespons /health"}' "$WEBHOOK"
+    -d '{"content":"Server dengarkan bareng Kiyo tidak merespons /health"}' "$WEBHOOK"
 fi
 ```
 
 Crontab (tiap menit):
 
 ```
-* * * * * /usr/local/bin/mochy-health.sh
+* * * * * /usr/local/bin/kiyo-health.sh
 ```
 
 Skrip ini mengirim notifikasi tiap menit selama server mati. Tambahkan file penanda bila ingin satu pesan saja.

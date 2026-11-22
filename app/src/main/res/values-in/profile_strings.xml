@@ -36,7 +36,7 @@
 
     <!-- Edit Profile Sheet -->
     <string name="profile_edit_title">Edit profil</string>
-    <string name="profile_data_privacy_hint">Mochy tidak akan pernah menyimpan datamu secara online!</string>
+    <string name="profile_data_privacy_hint">Kiyo tidak akan pernah menyimpan datamu secara online!</string>
     <string name="profile_done">Selesai</string>
     <string name="profile_username_label">nama pengguna</string>
     <string name="profile_username_placeholder">nama pengguna</string>

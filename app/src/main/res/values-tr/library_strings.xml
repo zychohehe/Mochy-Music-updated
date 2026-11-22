@@ -41,7 +41,7 @@
     <string name="lib_manage_imports_pill">İçe aktarımları yönet</string>
     <string name="lib_manage_local_pill">Yerelleri yönet</string>
     <string name="lib_local_or">Veya</string>
-    <string name="lib_local_let_read">Tüm şarkılarını bulmak için Mochy\'nin depolama alanını okumasına izin ver</string>
+    <string name="lib_local_let_read">Tüm şarkılarını bulmak için Kiyo\'nin depolama alanını okumasına izin ver</string>
     <string name="lib_local_import_here">Yerel müziğini buraya aktar</string>
     <string name="lib_local_imported_from_local">Yerelden içe aktarıldı</string>
     <string name="lib_import_banner_title">Müziğini buraya aktar!</string>
@@ -51,7 +51,7 @@
     <string name="lib_import_adding_from">%3$s üzerinden %2$d parçadan %1$d tanesi ekleniyor</string>
     <string name="lib_import_adding">%2$d parçadan %1$d tanesi ekleniyor</string>
     <string name="lib_import_still_running">Bir içe aktarma hâlâ sürüyor. Bitince tekrar dene.</string>
-    <string name="lib_local_no_access">Mochy erişim olmadan müziğini göremez</string>
+    <string name="lib_local_no_access">Kiyo erişim olmadan müziğini göremez</string>
     <string name="lib_local_no_new_songs">Müzik klasörlerinde yeni şarkı yok</string>
     <plurals name="lib_local_repaired">
         <item quantity="one">%1$d şarkının adı, sözleri veya kapağı düzeltildi</item>

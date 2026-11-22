@@ -23,7 +23,7 @@
     <string name="profile_settings_title">Ayarlar</string>
     <string name="profile_open_settings">Ayarları aç</string>
     <string name="profile_edit_title">Profili düzenle</string>
-    <string name="profile_data_privacy_hint">Mochy verilerini asla çevrimiçi saklamaz!</string>
+    <string name="profile_data_privacy_hint">Kiyo verilerini asla çevrimiçi saklamaz!</string>
     <string name="profile_done">Bitti</string>
     <string name="profile_username_label">kullanıcı adı</string>
     <string name="profile_username_placeholder">kullanıcı adı</string>

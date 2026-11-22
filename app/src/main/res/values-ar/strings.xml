@@ -306,7 +306,7 @@
     <string name="backup_create_failed">تعذر إنشاء نسخة احتياطية</string>
     <string name="restore_failed">فشل في استعادة النسخة الاحتياطية</string>
     <string name="discord_integration">التكامل مع Discord</string>
-    <string name="discord_information">mochy يستخدم مكتبة KizzyRPC لتعيين حالة حساب Discord الخاص بك. هذا يتضمن استخدام اتصال Discord Gateway، والذي قد يعتبر انتهاكًا لشروط خدمة Discord. مع ذلك، لا توجد حالات معروفة لتعطيل حسابات المستخدمين لهذا السبب. استخدم على مسؤوليتك الخاصة. \n \nسيقوم mochy فقط باستخراج رمز الوصول الخاص بك، وسيتم تخزين كل شيء آخر محليًا.</string>
+    <string name="discord_information">kiyo يستخدم مكتبة KizzyRPC لتعيين حالة حساب Discord الخاص بك. هذا يتضمن استخدام اتصال Discord Gateway، والذي قد يعتبر انتهاكًا لشروط خدمة Discord. مع ذلك، لا توجد حالات معروفة لتعطيل حسابات المستخدمين لهذا السبب. استخدم على مسؤوليتك الخاصة. \n \nسيقوم kiyo فقط باستخراج رمز الوصول الخاص بك، وسيتم تخزين كل شيء آخر محليًا.</string>
     <string name="dismiss">صرف</string>
     <string name="options">خيارات</string>
     <string name="preview">معاينة</string>

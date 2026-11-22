@@ -24,6 +24,6 @@
     <string name="bedside_lock_screen">Kilit ekranında göster</string>
     <string name="bedside_lock_screen_caption">Bunu açıkken telefonu kilitle, ekran uyandığında hâlâ burada</string>
     <string name="bedside_lock_blocked">Telefonun bunu engelliyor</string>
-    <string name="bedside_lock_blocked_caption">Mochy için \"Kilit ekranında göster\"i açmak için dokun</string>
+    <string name="bedside_lock_blocked_caption">Kiyo için \"Kilit ekranında göster\"i açmak için dokun</string>
     <string name="bedside_lock_blocked_tag">DÜZELT</string>
 </resources>

@@ -16,7 +16,7 @@
     <string name="experimental_force_yt_blur_desc">기본값 120 px 대신 적용합니다. GPU 부하가 늘어날 수 있습니다</string>
     <string name="experimental_force_recap_title">월간 리캡 강제 표시</string>
     <string name="experimental_force_recap_desc">리캡을 미리 엽니다</string>
-    <string name="experimental_force_recap_detail">매월 3일 또는 10곡 재생 조건을 기다리지 않고 Mochy 카드 뒤의 리캡을 지금 엽니다</string>
+    <string name="experimental_force_recap_detail">매월 3일 또는 10곡 재생 조건을 기다리지 않고 Kiyo 카드 뒤의 리캡을 지금 엽니다</string>
     <string name="experimental_big_disc_title">대형 디스크 커버 스타일</string>
     <string name="experimental_big_disc_desc">미완성 기능 · 화면 밖으로 이어지는 대형 디스크</string>
     <string name="experimental_music_haptics_title">음악 햅틱</string>
@@ -40,7 +40,7 @@
     <string name="cipher_status_not_loaded">불러오지 않음</string>
     <string name="cipher_status_stale">오래됨 · 다음 재생 시 갱신됩니다</string>
     <string name="cipher_status_ready">준비됨</string>
-    <string name="cipher_card_description">YouTube는 주기적으로 변경되는 플레이어 스크립트로 스트림 URL에 서명합니다. Mochy는 이 스크립트를 캐시하고 자동으로 다시 다운로드합니다.</string>
+    <string name="cipher_card_description">YouTube는 주기적으로 변경되는 플레이어 스크립트로 스트림 URL에 서명합니다. Kiyo는 이 스크립트를 캐시하고 자동으로 다시 다운로드합니다.</string>
     <string name="cipher_player_id">플레이어 ID</string>
     <string name="cipher_last_updated">마지막 업데이트</string>
     <string name="cipher_script_size">스크립트 크기</string>
@@ -107,10 +107,10 @@
     <string name="discord_no_browser_toast">Discord 로그인 페이지를 열 브라우저가 없습니다.</string>
     <string name="discord_settings_title">Discord</string>
     <string name="discord_subtitle_rich_presence">프로필에 활동 상태 표시</string>
-    <string name="discord_status_not_configured">이 Mochy 빌드에서는 설정되지 않았습니다</string>
+    <string name="discord_status_not_configured">이 Kiyo 빌드에서는 설정되지 않았습니다</string>
     <string name="discord_status_signing_in">로그인 중…</string>
     <string name="discord_status_login_below">아래에서 로그인하여 켜세요</string>
-    <string name="discord_status_off">꺼짐 · 프로필에 Mochy 활동이 표시되지 않습니다</string>
+    <string name="discord_status_off">꺼짐 · 프로필에 Kiyo 활동이 표시되지 않습니다</string>
     <string name="discord_status_live">현재 프로필에 표시 중</string>
     <string name="discord_status_connecting">Discord에 연결 중…</string>
     <string name="discord_status_retrying">Discord에 연결할 수 없습니다. 다시 시도 중…</string>
@@ -147,7 +147,7 @@
     <string name="discord_cd_close">닫기</string>
     <string name="discord_spin_full_turn">한 바퀴 회전 시간</string>
     <string name="discord_spin_smoothness">부드러움</string>
-    <string name="discord_spin_note">계속 회전합니다. Discord는 웹의 이미지만 표시할 수 있으므로 Mochy가 아트워크를 GIF로 만들어 무료 파일 호스트인 uguu.se에 업로드합니다. 파일은 3시간 후 삭제됩니다. 더 느리고 부드러운 회전은 GIF 크기가 커져 표시되는 데 조금 더 걸립니다. 그동안 정지 이미지를 표시합니다. GIF가 지원하는 최대 부드러움은 50 fps입니다.</string>
+    <string name="discord_spin_note">계속 회전합니다. Discord는 웹의 이미지만 표시할 수 있으므로 Kiyo가 아트워크를 GIF로 만들어 무료 파일 호스트인 uguu.se에 업로드합니다. 파일은 3시간 후 삭제됩니다. 더 느리고 부드러운 회전은 GIF 크기가 커져 표시되는 데 조금 더 걸립니다. 그동안 정지 이미지를 표시합니다. GIF가 지원하는 최대 부드러움은 50 fps입니다.</string>
     <string name="discord_placeholder_list_title">자리표시자 목록</string>
     <string name="discord_placeholder_example_title">예를 들어 이 활동 이름은</string>
     <string name="discord_placeholder_shows_up_as">다음과 같이 표시됩니다</string>
@@ -159,7 +159,7 @@
     <string name="discord_image_artwork">음악 아트워크</string>
     <string name="discord_image_artist">아티스트 아트워크</string>
     <string name="discord_image_playback_status">재생 상태</string>
-    <string name="discord_image_app_logo">Mochy 로고</string>
+    <string name="discord_image_app_logo">Kiyo 로고</string>
     <string name="discord_image_spinning_artist">회전하는 아티스트 아트워크</string>
     <string name="discord_image_spinning_artwork">회전하는 음악 아트워크</string>
     <string name="discord_image_custom">내 이미지</string>
@@ -167,11 +167,11 @@
     <string name="discord_target_spotify">Spotify</string>
     <string name="discord_target_apple_music">Apple Music</string>
     <string name="discord_target_tidal">Tidal</string>
-    <string name="discord_target_mochy">GitHub의 Mochy</string>
+    <string name="discord_target_kiyo">GitHub의 Kiyo</string>
     <string name="discord_ph_name">곡 이름</string>
     <string name="discord_ph_artist">아티스트 이름</string>
     <string name="discord_ph_album">앨범</string>
-    <string name="discord_ph_app">Mochy</string>
+    <string name="discord_ph_app">Kiyo</string>
     <string name="discord_ph_quality">형식과 비트레이트, 예: OPUS · 160 kbps</string>
     <string name="discord_ph_apple">Apple 로고 · Apple 기기에서만 표시됩니다</string>
     <string name="discord_enable_rich_presence">활동 상태 표시 사용</string>

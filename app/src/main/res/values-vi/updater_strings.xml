@@ -20,7 +20,7 @@
     <string name="installing_system_update">Đang cài đặt bản\ncập nhật hệ thống…</string>
     <string name="making_update_ready">Đang chuẩn bị bản cập nhật, có thể mất một lúc</string>
     <string name="your_app_getting_better">Ứng dụng của bạn đang ngày càng tốt hơn…</string>
-    <string name="update_includes_features">Bản cập nhật này gồm các tính năng mới và những cải tiến mới nhất từ mochy-music %1$s, giúp ứng dụng hữu ích hơn nữa. Tìm hiểu thêm tại %2$s.</string>
+    <string name="update_includes_features">Bản cập nhật này gồm các tính năng mới và những cải tiến mới nhất từ kiyo-music %1$s, giúp ứng dụng hữu ích hơn nữa. Tìm hiểu thêm tại %2$s.</string>
     <string name="whats_new">Có gì mới?</string>
     <string name="update_available">Cập nhật</string>
     <string name="checking_for_updates">Đang kiểm tra cập nhật…</string>
@@ -35,7 +35,7 @@
     <string name="mobile_network_warning">Tải bản cập nhật qua mạng di động hoặc khi chuyển vùng có thể phát sinh thêm cước phí.</string>
     <string name="update_size">Dung lượng bản cập nhật: %1$s MB</string>
     <string name="check_internet_connection">Hãy kiểm tra kết nối internet và thử lại.</string>
-    <string name="mochy_music_version">mochy MUSIC phiên bản %1$s</string>
+    <string name="kiyo_music_version">kiyo MUSIC phiên bản %1$s</string>
     <string name="last_checked">Kiểm tra lần cuối: %1$s</string>
     <string name="install">Cài đặt</string>
     <string name="check_for_update">Kiểm tra cập nhật</string>

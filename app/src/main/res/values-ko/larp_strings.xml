@@ -49,7 +49,7 @@
     <string name="larp_skibidi_buffer">40 ms</string>
     <string name="larp_sixty_seven_title">67 허세꾼</string>
     <string name="larp_sixty_seven_dac">Chord Mojo 2</string>
-    <string name="larp_sixty_seven_lead">휴대용 DAC, Mochy에서 직접 출력</string>
+    <string name="larp_sixty_seven_lead">휴대용 DAC, Kiyo에서 직접 출력</string>
     <string name="larp_sixty_seven_power">600 mW</string>
     <string name="larp_sixty_seven_channels">위상을 맞춘 스테레오</string>
     <string name="larp_sixty_seven_source">음반사의 고해상도 원본 마스터</string>
@@ -57,7 +57,7 @@
     <string name="larp_sixty_seven_runs">여분의 오디오 코어</string>
     <string name="larp_sixty_seven_effects">없음, 페이드조차 없음</string>
     <string name="larp_sixty_seven_hires">32비트 부동소수점, 그대로 전달</string>
-    <string name="larp_sixty_seven_route">Mochy에서 비동기 USB를 통해 DAC로 전달</string>
+    <string name="larp_sixty_seven_route">Kiyo에서 비동기 USB를 통해 DAC로 전달</string>
     <string name="larp_sixty_seven_jitter">12 ps</string>
     <string name="larp_sixty_seven_buffer">10 ms</string>
     <string name="larp_brainrot_title">밈 중독 허세꾼</string>
@@ -66,24 +66,24 @@
     <string name="larp_brainrot_power">18 W</string>
     <string name="larp_brainrot_channels">귀로 조정한 스테레오</string>
     <string name="larp_brainrot_source">믹싱 콘솔에서 실시간 전달</string>
-    <string name="larp_brainrot_decoder">없음, Mochy는 FLAC을 모국어처럼 읽습니다</string>
+    <string name="larp_brainrot_decoder">없음, Kiyo는 FLAC을 모국어처럼 읽습니다</string>
     <string name="larp_brainrot_runs">밈 중독</string>
     <string name="larp_brainrot_effects">없음, 아티스트가 모든 비트를 승인함</string>
     <string name="larp_brainrot_hires">64비트 부동소수점, 금도금</string>
-    <string name="larp_brainrot_route">Mochy에서 은 케이블을 통해 DAC로 전달</string>
+    <string name="larp_brainrot_route">Kiyo에서 은 케이블을 통해 DAC로 전달</string>
     <string name="larp_brainrot_jitter">1 ps</string>
     <string name="larp_brainrot_buffer">1 ms</string>
     <string name="larp_maxxing_title">최강 허세꾼</string>
     <string name="larp_maxxing_dac">Wadax Atlantis Reference</string>
-    <string name="larp_maxxing_lead">디코더 없이 Mochy에서 바로 전달</string>
+    <string name="larp_maxxing_lead">디코더 없이 Kiyo에서 바로 전달</string>
     <string name="larp_maxxing_power">1,000,000 W</string>
     <string name="larp_maxxing_channels">수작업으로 조정한 스테레오</string>
     <string name="larp_maxxing_source">스튜디오의 원본 마스터 테이프</string>
-    <string name="larp_maxxing_decoder">없음, Mochy가 원본 그대로 스트리밍</string>
+    <string name="larp_maxxing_decoder">없음, Kiyo가 원본 그대로 스트리밍</string>
     <string name="larp_maxxing_runs">순수 도파민</string>
     <string name="larp_maxxing_effects">없음, 아티스트가 꿈꾸던 그대로 모든 비트 전달</string>
     <string name="larp_maxxing_hires">64비트 부동소수점, 그대로 전달</string>
-    <string name="larp_maxxing_route">중간 디코더 없이 Mochy에서 DAC로 전달</string>
+    <string name="larp_maxxing_route">중간 디코더 없이 Kiyo에서 DAC로 전달</string>
     <string name="larp_maxxing_jitter">0 ps</string>
     <string name="larp_maxxing_buffer">0 ms, 재생을 누르기도 전에 재생됩니다</string>
 </resources>

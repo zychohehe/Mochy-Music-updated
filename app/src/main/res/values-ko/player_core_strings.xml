@@ -123,7 +123,7 @@
     <string name="pc_resync_open_playlist">재생목록을 열고 메뉴에서 다시 동기화하세요.</string>
     <string name="pc_resync_busy">가져오기가 진행 중입니다. 완료 후 다시 시도하세요.</string>
     <string name="pc_resync_nothing">음악 서비스에서 가져온 재생목록이 없어 다시 동기화할 항목이 없습니다.</string>
-    <string name="pc_resync_link_hint">이 재생목록을 가져올 때는 Mochy가 출처를 저장하지 않았습니다. 다시 동기화하려면 재생목록 링크가 필요합니다.</string>
+    <string name="pc_resync_link_hint">이 재생목록을 가져올 때는 Kiyo가 출처를 저장하지 않았습니다. 다시 동기화하려면 재생목록 링크가 필요합니다.</string>
     <string name="pc_search_playlist_songs">재생목록의 곡 검색</string>
     <string name="pc_search_songs_here">여기에서 곡 검색</string>
     <string name="pc_lock_order">순서 잠금</string>
@@ -184,7 +184,7 @@
     <string name="pc_stat_speed">속도</string>
     <string name="pc_stat_pitch">음높이</string>
     <string name="pc_stat_semitones">%1$s반음</string>
-    <string name="pc_stat_rs_mochy">Mochy 하이파이, 윈도 sinc (Kaiser)</string>
+    <string name="pc_stat_rs_kiyo">Kiyo 하이파이, 윈도 sinc (Kaiser)</string>
     <string name="pc_stat_passband">통과 대역</string>
     <string name="pc_stat_flat_to">%1$s까지 평탄</string>
     <string name="pc_stat_stopband">저지 대역 −%1$d dB, 32비트 부동소수점</string>

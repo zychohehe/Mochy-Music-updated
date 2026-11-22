@@ -279,7 +279,7 @@
     <string name="backup_create_failed">Impossibile eseguire il backup</string>
     <string name="restore_failed">Impossibile eseguire il ripristino dal backup</string>
     <string name="discord_integration">Integrazione Discord</string>
-    <string name="discord_information">mochy usa la libreria KizzyRPC per impostare lo stato del tuo account Discord. Ciò comporta l\'uso della connessione Discord Gateway, che può essere considerata una violazione dei TOS di Discord. Tuttavia, non ci sono casi noti di account utente sospesi per questo motivo. Usalo a tuo rischio e pericolo.\n\nmochy estrarrà solo il tuo token e tutto il resto verrà archiviato localmente.</string>
+    <string name="discord_information">kiyo usa la libreria KizzyRPC per impostare lo stato del tuo account Discord. Ciò comporta l\'uso della connessione Discord Gateway, che può essere considerata una violazione dei TOS di Discord. Tuttavia, non ci sono casi noti di account utente sospesi per questo motivo. Usalo a tuo rischio e pericolo.\n\nkiyo estrarrà solo il tuo token e tutto il resto verrà archiviato localmente.</string>
     <string name="dismiss">Ignorare</string>
     <string name="options">Opzioni</string>
     <string name="preview">Anteprima</string>

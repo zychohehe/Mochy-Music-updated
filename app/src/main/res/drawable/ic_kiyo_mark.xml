@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="128"
+    android:viewportHeight="139">
+    <!-- the kiyo mark from icon new - transparent 2.svg, moved 58,48 so it sits in the same box as the old mark -->
+    <group
+        android:translateX="-58"
+        android:translateY="-48">
+        <path
+            android:pathData="M96 70H136C151.464 70 164 82.536 164 98V138C164 153.464 151.464 166 136 166H96C80.536 166 68 153.464 68 138V98C68 82.536 80.536 70 96 70Z"
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="19"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M97 94V142M136 94L99 120"
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="11"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M109 111L137 142"
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="11"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
+</vector>

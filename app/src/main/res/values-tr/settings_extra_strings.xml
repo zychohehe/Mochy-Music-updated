@@ -16,7 +16,7 @@
     <string name="experimental_force_yt_blur_desc">120 piksel varsayılanını geçersiz kılar; GPU yükünü artırabilir</string>
     <string name="experimental_force_recap_title">Aylık özeti zorla göster</string>
     <string name="experimental_force_recap_desc">Özetin kilidini erken aç</string>
-    <string name="experimental_force_recap_detail">3. veya 10. şarkıyı beklemeden Mochy kartının arkasındaki özetin kilidini şimdi aç</string>
+    <string name="experimental_force_recap_detail">3. veya 10. şarkıyı beklemeden Kiyo kartının arkasındaki özetin kilidini şimdi aç</string>
     <string name="experimental_big_disc_title">Büyük disk kapak stilleri</string>
     <string name="experimental_big_disc_desc">Bitmemiş — ekranın dışına taşan dev diskler</string>
     <string name="experimental_music_haptics_title">Müzik titreşimi</string>
@@ -40,7 +40,7 @@
     <string name="cipher_status_not_loaded">Yüklenmedi</string>
     <string name="cipher_status_stale">Eski — sonraki oynatmada yenilenir</string>
     <string name="cipher_status_ready">Hazır</string>
-    <string name="cipher_card_description">YouTube akış URL\'lerini düzenli olarak değişen bir oynatıcı betiğiyle imzalar. mochy bu betiği önbelleğe alır ve kendiliğinden yeniden indirir.</string>
+    <string name="cipher_card_description">YouTube akış URL\'lerini düzenli olarak değişen bir oynatıcı betiğiyle imzalar. kiyo bu betiği önbelleğe alır ve kendiliğinden yeniden indirir.</string>
     <string name="cipher_player_id">Oynatıcı kimliği</string>
     <string name="cipher_last_updated">Son güncellenme</string>
     <string name="cipher_script_size">Betik boyutu</string>
@@ -107,10 +107,10 @@
     <string name="discord_no_browser_toast">Discord\'un giriş sayfasını açacak bir tarayıcı yok.</string>
     <string name="discord_settings_title">Discord</string>
     <string name="discord_subtitle_rich_presence">Profilinde zengin durum</string>
-    <string name="discord_status_not_configured">Mochy\'nin bu derlemesinde kurulu değil</string>
+    <string name="discord_status_not_configured">Kiyo\'nin bu derlemesinde kurulu değil</string>
     <string name="discord_status_signing_in">Giriş yapılıyor…</string>
     <string name="discord_status_login_below">Açmak için aşağıdan giriş yap</string>
-    <string name="discord_status_off">Kapalı, profilinde Mochy\'den hiçbir şey görünmüyor</string>
+    <string name="discord_status_off">Kapalı, profilinde Kiyo\'den hiçbir şey görünmüyor</string>
     <string name="discord_status_live">Şu an profilinde</string>
     <string name="discord_status_connecting">Discord\'a bağlanılıyor…</string>
     <string name="discord_status_retrying">Discord\'a ulaşılamıyor. Tekrar deneniyor…</string>
@@ -147,7 +147,7 @@
     <string name="discord_cd_close">Kapat</string>
     <string name="discord_spin_full_turn">Tam bir tur</string>
     <string name="discord_spin_smoothness">Akıcılık</string>
-    <string name="discord_spin_note">Sonsuza dek döner. Discord yalnızca web\'den resim gösterebildiği için Mochy kapak resminden bir GIF yapar ve ücretsiz bir dosya sunucusuna koyar (uguu.se, üç saat sonra siler). Daha yavaş ve akıcı turlar daha büyük bir GIF üretir ve görünmesi biraz daha uzun sürer; o arada sabit kapak görünür. 50 fps bir GIF\'in oynayabileceği en akıcı hızdır.</string>
+    <string name="discord_spin_note">Sonsuza dek döner. Discord yalnızca web\'den resim gösterebildiği için Kiyo kapak resminden bir GIF yapar ve ücretsiz bir dosya sunucusuna koyar (uguu.se, üç saat sonra siler). Daha yavaş ve akıcı turlar daha büyük bir GIF üretir ve görünmesi biraz daha uzun sürer; o arada sabit kapak görünür. 50 fps bir GIF\'in oynayabileceği en akıcı hızdır.</string>
     <string name="discord_placeholder_list_title">Yer tutucu listesi</string>
     <string name="discord_placeholder_example_title">Örneğin bu etkinlik adı</string>
     <string name="discord_placeholder_shows_up_as">şöyle görünür</string>
@@ -159,7 +159,7 @@
     <string name="discord_image_artwork">Müzik kapağı</string>
     <string name="discord_image_artist">Sanatçı resmi</string>
     <string name="discord_image_playback_status">Oynatma durumu</string>
-    <string name="discord_image_app_logo">Mochy logosu</string>
+    <string name="discord_image_app_logo">Kiyo logosu</string>
     <string name="discord_image_spinning_artist">Dönen sanatçı resmi</string>
     <string name="discord_image_spinning_artwork">Dönen müzik kapağı</string>
     <string name="discord_image_custom">Kendi resmin</string>
@@ -167,11 +167,11 @@
     <string name="discord_target_spotify">Spotify</string>
     <string name="discord_target_apple_music">Apple Music</string>
     <string name="discord_target_tidal">Tidal</string>
-    <string name="discord_target_mochy">GitHub\'da Mochy</string>
+    <string name="discord_target_kiyo">GitHub\'da Kiyo</string>
     <string name="discord_ph_name">Şarkı adı</string>
     <string name="discord_ph_artist">Sanatçı adı</string>
     <string name="discord_ph_album">Albüm</string>
-    <string name="discord_ph_app">Mochy</string>
+    <string name="discord_ph_app">Kiyo</string>
     <string name="discord_ph_quality">Format ve bit hızı, örneğin OPUS · 160 kbps</string>
     <string name="discord_ph_apple">Apple logosu (yalnızca Apple cihazları gösterebilir)</string>
     <string name="discord_enable_rich_presence">Zengin durumu etkinleştir</string>

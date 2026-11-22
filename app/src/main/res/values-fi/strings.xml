@@ -269,11 +269,11 @@
     <string name="backup_create_failed">Varmuuskopiota ei voitu luoda</string>
     <string name="restore_failed">Varmuuskopion palauttaminen epäonnistui</string>
     <string name="discord_integration">Discord-integraatio</string>
-    <string name="discord_information">mochy käyttää KizzyRPC-kirjastoa asettaaksesi Discord-tilisi tilan. Tämä edellyttää Discord Gateway-yhteyttä, jota voidaan katsoa Discordin käyttöehtojen rikkomuksena. Ei kuitenkaan ole tiedossa tapauksia, joissa käyttäjätilit olisi jäädytetty tästä syystä. Käytä omalla vastuullasi. \n \nmochy poimii ainoastaan tunnuksesi, ja kaikki muu säilytetään paikallisesti.</string>
+    <string name="discord_information">kiyo käyttää KizzyRPC-kirjastoa asettaaksesi Discord-tilisi tilan. Tämä edellyttää Discord Gateway-yhteyttä, jota voidaan katsoa Discordin käyttöehtojen rikkomuksena. Ei kuitenkaan ole tiedossa tapauksia, joissa käyttäjätilit olisi jäädytetty tästä syystä. Käytä omalla vastuullasi. \n \nkiyo poimii ainoastaan tunnuksesi, ja kaikki muu säilytetään paikallisesti.</string>
     <string name="dismiss">Hylkää</string>
     <string name="options">Asetukset</string>
     <string name="preview">Esikatselu</string>
-    <string name="enable_discord_rpc">Tämä on Discord-integraatio-ominaisuus, se tarkoittaa mochy-toiminnan näyttämistä Discord-tililläsi</string>
+    <string name="enable_discord_rpc">Tämä on Discord-integraatio-ominaisuus, se tarkoittaa kiyo-toiminnan näyttämistä Discord-tililläsi</string>
     <string name="about">Tietoa</string>
     <string name="app_version">Sovelluksen versio</string>
     <string name="new_version_available">Uusi versio saatavilla</string>

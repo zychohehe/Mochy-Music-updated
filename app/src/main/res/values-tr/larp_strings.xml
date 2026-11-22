@@ -49,7 +49,7 @@
     <string name="larp_skibidi_buffer">40 ms</string>
     <string name="larp_sixty_seven_title">67 larper</string>
     <string name="larp_sixty_seven_dac">Chord Mojo 2</string>
-    <string name="larp_sixty_seven_lead">Taşınabilir DAC, doğrudan Mochy\'den</string>
+    <string name="larp_sixty_seven_lead">Taşınabilir DAC, doğrudan Kiyo\'den</string>
     <string name="larp_sixty_seven_power">600 mW</string>
     <string name="larp_sixty_seven_channels">Stereo, faz eşleşmeli</string>
     <string name="larp_sixty_seven_source">Şirketin kendi hi-res ana kaydı</string>
@@ -57,7 +57,7 @@
     <string name="larp_sixty_seven_runs">Yedek bir ses çekirdeği</string>
     <string name="larp_sixty_seven_effects">Yok, solma bile yok</string>
     <string name="larp_sixty_seven_hires">32-bit float, doğrudan geçiş</string>
-    <string name="larp_sixty_seven_route">Mochy\'den DAC\'a asenkron USB üzerinden</string>
+    <string name="larp_sixty_seven_route">Kiyo\'den DAC\'a asenkron USB üzerinden</string>
     <string name="larp_sixty_seven_jitter">12 ps</string>
     <string name="larp_sixty_seven_buffer">10 ms</string>
     <string name="larp_brainrot_title">Brainrot larper</string>
@@ -66,24 +66,24 @@
     <string name="larp_brainrot_power">18 W</string>
     <string name="larp_brainrot_channels">Stereo, kulağa göre ayarlanmış</string>
     <string name="larp_brainrot_source">Miks masası, canlı</string>
-    <string name="larp_brainrot_decoder">Yok, Mochy FLAC\'ı akıcı okuyor</string>
+    <string name="larp_brainrot_decoder">Yok, Kiyo FLAC\'ı akıcı okuyor</string>
     <string name="larp_brainrot_runs">Brainrot</string>
     <string name="larp_brainrot_effects">Yok, sanatçı her biti onayladı</string>
     <string name="larp_brainrot_hires">64-bit float, altın kaplama</string>
-    <string name="larp_brainrot_route">Mochy\'den DAC\'a gümüş kabloyla</string>
+    <string name="larp_brainrot_route">Kiyo\'den DAC\'a gümüş kabloyla</string>
     <string name="larp_brainrot_jitter">1 ps</string>
     <string name="larp_brainrot_buffer">1 ms</string>
     <string name="larp_maxxing_title">Maxxing larper</string>
     <string name="larp_maxxing_dac">Wadax Atlantis Reference</string>
-    <string name="larp_maxxing_lead">Doğrudan Mochy\'den, kod çözücüsüz</string>
+    <string name="larp_maxxing_lead">Doğrudan Kiyo\'den, kod çözücüsüz</string>
     <string name="larp_maxxing_power">1.000.000 W</string>
     <string name="larp_maxxing_channels">Stereo, elle ayarlanmış</string>
     <string name="larp_maxxing_source">Stüdyonun kendi ana bandı</string>
-    <string name="larp_maxxing_decoder">Yok, Mochy ham akıtıyor</string>
+    <string name="larp_maxxing_decoder">Yok, Kiyo ham akıtıyor</string>
     <string name="larp_maxxing_runs">Saf dopamin</string>
     <string name="larp_maxxing_effects">Yok, her bit sanatçının hayal ettiği gibi yerine oturuyor</string>
     <string name="larp_maxxing_hires">64-bit float, doğrudan geçiş</string>
-    <string name="larp_maxxing_route">Mochy\'den DAC\'a, arada kod çözücü yok</string>
+    <string name="larp_maxxing_route">Kiyo\'den DAC\'a, arada kod çözücü yok</string>
     <string name="larp_maxxing_jitter">0 ps</string>
     <string name="larp_maxxing_buffer">0 ms, sen basmadan önce çalıyor</string>
 </resources>

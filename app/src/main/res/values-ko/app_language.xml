@@ -31,7 +31,7 @@
     <string name="settings_seconds_short">%1$d초</string>
     <string name="settings_youtube_plays">YouTube 재생 횟수에 반영</string>
     <string name="settings_youtube_plays_desc">들은 곡을 YouTube 재생 횟수에 반영합니다</string>
-    <string name="settings_youtube_plays_detail">곡을 재생 기록에 남길 만큼 들으면 Mochy가 YouTube Music 앱과 같은 방식으로 YouTube에 알립니다. 로그인한 경우 YouTube 기록에도 표시됩니다. 건너뛴 곡, 기기 내 파일, 오프라인으로 재생한 곡은 전송하지 않습니다</string>
+    <string name="settings_youtube_plays_detail">곡을 재생 기록에 남길 만큼 들으면 Kiyo가 YouTube Music 앱과 같은 방식으로 YouTube에 알립니다. 로그인한 경우 YouTube 기록에도 표시됩니다. 건너뛴 곡, 기기 내 파일, 오프라인으로 재생한 곡은 전송하지 않습니다</string>
     <string name="settings_playback_category">재생</string>
     <string name="settings_customisation_category">맞춤 설정</string>
     <string name="settings_audio_lab_category">오디오 랩</string>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="supplemental_support_enjoying">Enjoying Mochy Music?</string>
-    <string name="supplemental_support_title">Support Mochy’s development!</string>
-    <string name="supplemental_support_body">thanks for trying it out! btw, Mochy Music will always be free, forever yours! &lt;3\n\nIt would be very useful for us if you support the developer, no matter how small it is!! &lt;3\ngiving a star to Mochy’s repo is already enough. and thanks again!</string>
+    <string name="supplemental_support_enjoying">Enjoying Kiyo Music?</string>
+    <string name="supplemental_support_title">Support Kiyo’s development!</string>
+    <string name="supplemental_support_body">thanks for trying it out! btw, Kiyo Music will always be free, forever yours! &lt;3\n\nIt would be very useful for us if you support the developer, no matter how small it is!! &lt;3\ngiving a star to Kiyo’s repo is already enough. and thanks again!</string>
     <string name="supplemental_support_donate">Join channel!</string>
     <string name="supplemental_support_star">Star the repo!</string>
     <string name="supplemental_support_dismiss">get these beggar outta here, No!</string>
@@ -26,7 +26,7 @@
     <string name="supplemental_install_here">Install here</string>
     <string name="supplemental_update_open_web">Open the web</string>
     <string name="supplemental_update_snooze">no thanks remind me in 24 hour</string>
-    <string name="supplemental_install_permission">Allow \"Install unknown apps\" for mochy, then tap Install here again.</string>
+    <string name="supplemental_install_permission">Allow \"Install unknown apps\" for kiyo, then tap Install here again.</string>
     <string name="supplemental_featured_playlist">Featured Playlist</string>
     <string name="supplemental_featured_songs">Featured songs</string>
     <string name="supplemental_artist_new_releases">New from them</string>

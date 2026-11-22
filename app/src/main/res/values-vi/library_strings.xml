@@ -38,7 +38,7 @@
     <string name="lib_manage_imports_pill">Quản lý nhập nhạc</string>
     <string name="lib_manage_local_pill">Quản lý nhạc trên máy</string>
     <string name="lib_local_or">Hoặc</string>
-    <string name="lib_local_let_read">Cho phép Mochy đọc bộ nhớ để tìm tất cả bài hát của bạn</string>
+    <string name="lib_local_let_read">Cho phép Kiyo đọc bộ nhớ để tìm tất cả bài hát của bạn</string>
     <string name="lib_local_import_here">Nhập nhạc trên máy của bạn tại đây</string>
     <string name="lib_local_imported_from_local">Đã nhập từ máy</string>
     <string name="lib_import_banner_title">Nhập nhạc của bạn tại đây!</string>
@@ -48,7 +48,7 @@
     <string name="lib_import_adding_from">Đang thêm %1$d/%2$d bài từ %3$s</string>
     <string name="lib_import_adding">Đang thêm %1$d/%2$d bài</string>
     <string name="lib_import_still_running">Một lượt nhập vẫn đang chạy. Hãy thử lại khi nó hoàn tất.</string>
-    <string name="lib_local_no_access">Mochy không thể thấy nhạc của bạn nếu chưa được cấp quyền</string>
+    <string name="lib_local_no_access">Kiyo không thể thấy nhạc của bạn nếu chưa được cấp quyền</string>
     <string name="lib_local_no_new_songs">Không có bài hát mới trong các thư mục nhạc của bạn</string>
     <string name="lib_transfer_download_title">Tiến trình tải xuống</string>
     <string name="lib_transfer_download_idle">Hiện không có gì đang tải xuống.</string>

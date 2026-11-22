@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <sub>What is Mochy Music? its a sleek modern cool music player for android, open source, packed with features and doesn’t collect ur data >_< !! oh and, still in beta! so please expect some bug :)</sub>
+  <sub>What is Kiyo Music? its a sleek modern cool music player for android, open source, packed with features and doesn’t collect ur data >_< !! oh and, still in beta! so please expect some bug :)</sub>
   <br/>
 <p align="center">
 
@@ -42,12 +42,12 @@
 1. On your phone, open the [latest release](https://github.com/zychohehe/Mochy-Music/releases/latest).
 2. Download the `.apk` that matches your phone. If you are not sure, pick **arm64**, that is almost every phone from the last 8 years. The **universal** one works everywhere but is bigger.
 3. Open the downloaded file. Android will ask you to allow installs from your browser or file manager, say yes (you can turn it off again after).
-4. Open Mochy. You are done, no account needed to start listening.
+4. Open Kiyo. You are done, no account needed to start listening.
 
 Updating works the same way: install the new apk over the old one and your library stays.
 
 > [!TIP]
-> Only download Mochy from the releases page of this repo. A random mediafire or telegram link could be a modified app, and then your logins would not be safe, pls avoid those
+> Only download Kiyo from the releases page of this repo. A random mediafire or telegram link could be a modified app, and then your logins would not be safe, pls avoid those
 
 > [!BTW]
 > We support android 7 unofficially.
@@ -72,9 +72,9 @@ Q - Is it safe to log in? (read this before signing in)
 A - Tbh, you never have to log in to use this thing btw. Search, play, lyrics and downloads work without an account. Signing in is only for syncing your YouTube Music library, importing playlists from Spotify / Apple Music / Tidal, and Discord status
 
 **How the sign-in works**
-- Mochy opens the real login page of the service (for example accounts.google.com or open.spotify.com) inside the app. You type your password into **their** page, not into a Mochy form.
+- Kiyo opens the real login page of the service (for example accounts.google.com or open.spotify.com) inside the app. You type your password into **their** page, not into a Kiyo form.
 - After you log in, the app keeps the session token or cookie that the service gives out, so you stay signed in. Your password is not what gets saved.
-- That session stays on your phone, in the app's private storage. Mochy has no account system of its own and does not run a server that collects logins.
+- That session stays on your phone, in the app's private storage. Kiyo has no account system of its own and does not run a server that collects logins.
 - The tokens are meant to be used only to talk to the service you signed in to (for example Spotify's own site to read your playlists).
 - The app is open source under GPL-3.0 so you do not have to take my word for it, you can always read exactly what it does with them :)
 
@@ -132,7 +132,7 @@ You only need this if you want to change the code. If you just want to use the a
 ### Steps
 ```bash
 git clone https://github.com/zychohehe/Mochy-Music.git
-cd mochy-music
+cd kiyo-music
 ```
 
 1. Open the folder in Android Studio once and let it finish syncing. This also creates `local.properties` with your SDK path.
@@ -156,10 +156,10 @@ Handy options (see `./build.sh --help` for all of them):
 | `./build.sh -fd --release` | F-Droid flavor, without the self-update permission |
 | `./build.sh -k` | stops stuck Gradle builds |
 
-Use **debug** while you are playing around, it builds much much faster. A debug build installs next to the real app (`com.example.mochy.debug`), so it will not touch your normal install, but it is also a bit slower to run.
+Use **debug** while you are playing around, it builds much much faster. A debug build installs next to the real app (`com.example.kiyo.debug`), so it will not touch your normal install, but it is also a bit slower to run.
 
 ### Optional keys
-Mochy builds fine without these, only the matching feature is switched off. Put them in `local.properties` (it is never committed):
+Kiyo builds fine without these, only the matching feature is switched off. Put them in `local.properties` (it is never committed):
 
 ```properties
 LASTFM_API_KEY=...
@@ -189,12 +189,12 @@ Or read contribute.md there
 ---
 ## Disclaimer
 
-Mochy is an independent, unofficial project made for personal and educational use. It is provided as is, without warranty of any kind.
+Kiyo is an independent, unofficial project made for personal and educational use. It is provided as is, without warranty of any kind.
 
-- Mochy is a fully open source project that is created purely for educationa and personal use. thats why, we dont sell this software, or monetize it. we do not have any intent to add commercial values in the future. thanks!
-- And were deeply respect the hardwork of artist musicians ajd contwnt creators. without them there is also no mochy: i strongly suggest that you, as user, subscribe to Apple music or youtube premium, to support the creators you listen. I do not intend to hurt creator with this app.
+- Kiyo is a fully open source project that is created purely for educationa and personal use. thats why, we dont sell this software, or monetize it. we do not have any intent to add commercial values in the future. thanks!
+- And were deeply respect the hardwork of artist musicians ajd contwnt creators. without them there is also no kiyo: i strongly suggest that you, as user, subscribe to Apple music or youtube premium, to support the creators you listen. I do not intend to hurt creator with this app.
 - It is **not affiliated with, endorsed by, or sponsored by** YouTube, YouTube Music, Google, Spotify, Apple, Last.fm, Shazam, Discord or any other service it can connect to. All names, logos and brands belong to their respective owners.
-- Mochy does not host, store or distribute any music. Everything is fetched from third-party services when you ask for it, and those services can change or stop working at any time.
+- Kiyo does not host, store or distribute any music. Everything is fetched from third-party services when you ask for it, and those services can change or stop working at any time.
 - You are responsible for how you use the app, including the terms of service of the accounts and services you connect and the copyright laws where you live.
 - Importing from other services (Spotify, etc.) uses your own account. Don't share your login data or tokens with anyone.
 - Importing music MAY need your own account with its password. WE'RE NEVER see your password.
@@ -213,7 +213,7 @@ Forks are welcome, that's what open source is for! Just two asks:
 
 ---
 
-## These incredible project helped mochy a lot! check them out too :3
+## These incredible project helped kiyo a lot! check them out too :3
 
 - **ViviMusic** by [vivizzz007Z](https://github.com/vivizzz007Z) )[Their repo](https://github.com/vivizzz007/vivi-music)) -- For the base app. This app is a fork from this project.
 - **Metrolist** by [Mostafa Alagamy](https://github.com/mostafaalagamy) ([Repository](https://github.com/mostafaalagamy/Metrolist)) -- For the base framework.
@@ -228,7 +228,7 @@ Forks are welcome, that's what open source is for! Just two asks:
 
 ---
 
-## Open source APIs mochy talks to!!
+## Open source APIs kiyo talks to!!
 
 These are the open source apis and server we get gets its lyrics, streams and data from. They r free for everyone because of these good people, so go give them a star!
 

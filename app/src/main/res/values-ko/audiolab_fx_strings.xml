@@ -31,7 +31,7 @@
     <string name="fx_mono_title">모노 오디오</string>
     <string name="fx_mono_sub">양쪽 귀에 전체 믹스를 전달합니다. 이어버드 하나만 쓰거나 한쪽 귀로 들을 때 유용합니다</string>
     <string name="fx_atmos_title">Dolby Atmos 및 서라운드</string>
-    <string name="fx_atmos_sub">5.1, 7.1 및 Atmos 베드 채널을 스테레오로 합치는 대신 Mochy의 머리 모델을 사용해 모든 헤드폰에서 3D 음향으로 재생합니다. 다음 곡부터 적용됩니다.</string>
+    <string name="fx_atmos_sub">5.1, 7.1 및 Atmos 베드 채널을 스테레오로 합치는 대신 Kiyo의 머리 모델을 사용해 모든 헤드폰에서 3D 음향으로 재생합니다. 다음 곡부터 적용됩니다.</string>
     <string name="fx_atmos_decoder">Atmos 디코더</string>
     <string name="fx_atmos_spatializer">Android 공간 음향 처리기</string>
     <string name="fx_atmos_yes">예</string>
@@ -61,7 +61,7 @@
     <string name="fx_curve_steep">가파르게</string>
     <string name="fx_curve">곡선</string>
     <string name="fx_volume_limit">음량 제한</string>
-    <string name="fx_volume_note">Mochy 자체 음량(플레이어 슬라이더, 페이드, 다른 소리 재생 시 음량 감소)에 적용됩니다. 제한값은 앱의 최대 재생 음량을 정합니다.</string>
+    <string name="fx_volume_note">Kiyo 자체 음량(플레이어 슬라이더, 페이드, 다른 소리 재생 시 음량 감소)에 적용됩니다. 제한값은 앱의 최대 재생 음량을 정합니다.</string>
     <string name="fx_reverb_title">리버브</string>
     <string name="fx_reverb_sub">음악에 잔향을 더합니다</string>
     <string name="fx_reverb_room">방</string>

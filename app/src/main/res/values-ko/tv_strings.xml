@@ -2,9 +2,9 @@
 <resources>
     <string name="tv_hii">안녕하세요!</string>
     <string name="tv_tap_anything">아무 버튼이나 눌러 계속하세요</string>
-    <string name="tv_welcome">Mochy Music에\n오신 것을 환영합니다</string>
+    <string name="tv_welcome">Kiyo Music에\n오신 것을 환영합니다</string>
     <string name="tv_lets_sync">휴대전화와 동기화해 보세요</string>
-    <string name="tv_skip_phone">휴대전화 없이 Mochy 사용</string>
+    <string name="tv_skip_phone">휴대전화 없이 Kiyo 사용</string>
     <string name="tv_whats_your_name">어떤 이름으로 부를까요?</string>
     <string name="tv_continue">계속</string>
     <string name="tv_whos_listening">누가 듣고 있나요?</string>
@@ -62,7 +62,7 @@
     <string name="tv_copy_to_tv">휴대전화에서 이 TV로 복사</string>
     <string name="tv_sync_from_phone">휴대전화에서 동기화</string>
     <string name="tv_same_wifi">휴대전화가 이 TV와 같은 Wi-Fi에 연결되어 있는지 확인하세요</string>
-    <string name="tv_pair_step_open">휴대전화에서 Mochy를 열고 설정 → 기기 연동 → 기기 추가로 이동하세요</string>
+    <string name="tv_pair_step_open">휴대전화에서 Kiyo를 열고 설정 → 기기 연동 → 기기 추가로 이동하세요</string>
     <string name="tv_pair_step_pick">목록에서 %1$s 선택</string>
     <string name="tv_pair_step_code">위에 표시된 코드 입력</string>
     <string name="tv_from_phone">%1$s에서</string>
@@ -72,9 +72,9 @@
     <string name="tv_controlled_from">%1$s에서 제어 중</string>
     <string name="tv_sync_looking">휴대전화를 찾는 중…</string>
     <string name="tv_sync_syncing">보관함을 동기화하는 중…</string>
-    <string name="tv_sync_away">휴대전화를 찾을 수 없습니다. 같은 Wi-Fi에 연결하고 휴대전화에서 Mochy를 여세요.</string>
+    <string name="tv_sync_away">휴대전화를 찾을 수 없습니다. 같은 Wi-Fi에 연결하고 휴대전화에서 Kiyo를 여세요.</string>
     <string name="tv_sync_unlinked">휴대전화에서 이 TV의 연결을 해제했습니다. 보관함은 여기에 유지됩니다.</string>
-    <string name="tv_sync_failed">동기화할 수 없습니다. 두 기기의 Mochy가 최신 버전인지 확인하고 다시 시도하세요.</string>
+    <string name="tv_sync_failed">동기화할 수 없습니다. 두 기기의 Kiyo가 최신 버전인지 확인하고 다시 시도하세요.</string>
     <string name="tv_sync_no_phone">연결된 휴대전화 없음</string>
     <string name="tv_sync_just_now">방금 동기화됨</string>
     <plurals name="tv_sync_minutes_ago">
@@ -85,7 +85,7 @@
         <item quantity="one">이 TV로 곡 1개를 복사하는 중…</item>
         <item quantity="other">이 TV로 %d곡을 복사하는 중…</item>
     </plurals>
-    <string name="tv_link_title">TV에서 사용하는 Mochy</string>
+    <string name="tv_link_title">TV에서 사용하는 Kiyo</string>
     <string name="tv_link_tap_to_unlink">연결됨. 탭하여 연결을 해제하세요.</string>
     <string name="tv_link_found">이 Wi-Fi의 TV</string>
     <string name="tv_link_enter_code">%1$s에 표시된 코드를 입력하세요</string>
@@ -93,15 +93,15 @@
     <string name="tv_link_pair">연결</string>
     <string name="tv_link_pairing">연결 중…</string>
     <string name="tv_link_channel">TV 연결</string>
-    <string name="tv_mochy">Mochy</string>
-    <string name="tv_mochy_version">버전 %1$s</string>
-    <string name="tv_mochy_link_phone">휴대전화를 연결해 보관함을 가져오세요</string>
-    <string name="tv_mochy_phone_control">휴대전화에서 이 TV 제어</string>
+    <string name="tv_kiyo">Kiyo</string>
+    <string name="tv_kiyo_version">버전 %1$s</string>
+    <string name="tv_kiyo_link_phone">휴대전화를 연결해 보관함을 가져오세요</string>
+    <string name="tv_kiyo_phone_control">휴대전화에서 이 TV 제어</string>
     <string name="tv_on">켜짐</string>
     <string name="tv_off">꺼짐</string>
-    <string name="tv_mochy_updates">업데이트</string>
-    <string name="tv_mochy_support">Mochy 후원</string>
-    <string name="tv_mochy_support_detail">개발이 계속될 수 있도록 도와주세요</string>
+    <string name="tv_kiyo_updates">업데이트</string>
+    <string name="tv_kiyo_support">Kiyo 후원</string>
+    <string name="tv_kiyo_support_detail">개발이 계속될 수 있도록 도와주세요</string>
     <string name="tv_playing_next">다음 재생</string>
     <string name="tv_queue_empty">이 곡 다음에 대기 중인 곡이 없습니다</string>
     <string name="tv_queue_play_now">지금 재생</string>
@@ -113,7 +113,7 @@
     <string name="tv_menu_control">%1$s 제어</string>
     <string name="tv_menu_sent">%1$s에서 재생 중</string>
     <string name="tv_menu_next_sent">%1$s의 다음 곡으로 추가됨</string>
-    <string name="tv_menu_unreachable">%1$s에 연결할 수 없습니다. 해당 기기에서 Mochy가 열려 있는지 확인하세요.</string>
+    <string name="tv_menu_unreachable">%1$s에 연결할 수 없습니다. 해당 기기에서 Kiyo가 열려 있는지 확인하세요.</string>
     <string name="tv_menu_nothing_on">재생 중인 곡 없음</string>
     <string name="tv_link_open_now">현재 실행 중. 탭하여 연결을 해제하세요.</string>
     <string name="tv_link_control_title">현재 실행 중</string>
@@ -123,7 +123,7 @@
     <string name="tv_link_status_open">현재 실행 중</string>
     <string name="tv_link_status_open_synced">현재 실행 중 · 동기화: %1$s</string>
     <string name="tv_link_status_seen">마지막 실행: %1$s</string>
-    <string name="tv_link_status_waiting">해당 기기에서 Mochy가 실행되기를 기다리는 중</string>
+    <string name="tv_link_status_waiting">해당 기기에서 Kiyo가 실행되기를 기다리는 중</string>
     <string name="tv_link_status_connected">%1$s에 연결됨</string>
     <string name="tv_link_status_connected_detail">보관함이 동기화되어 있습니다</string>
     <string name="tv_link_status_streaming">%1$s(으)로 스트리밍 중</string>

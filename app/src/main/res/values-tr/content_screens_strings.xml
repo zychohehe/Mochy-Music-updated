@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about_app">Uygulama hakkında</string>
-    <string name="about_mochy_music_version">Mochy Music | %1$s</string>
-    <string name="about_app_description">Mochy Music bir müzik uygulaması ama\nbiraz da havalı.</string>
+    <string name="about_kiyo_music_version">Kiyo Music | %1$s</string>
+    <string name="about_app_description">Kiyo Music bir müzik uygulaması ama\nbiraz da havalı.</string>
     <string name="about_actions">Eylemler</string>
     <string name="about_support_me">Lütfen beni destekle :3 →</string>
-    <string name="about_github">Mochy Music github →</string>
+    <string name="about_github">Kiyo Music github →</string>
     <string name="about_meet_lead_dev">Baş geliştiriciyle tanış</string>
     <string name="about_we_wont_exist">Onlar olmasaydı var olamazdık</string>
     <string name="about_and_more">Ve daha fazlası →</string>
@@ -28,7 +28,7 @@
     <string name="update_status_failed">Güncellemeler denetlenemedi</string>
     <string name="update_status_offline">Çevrimdışı mı?</string>
     <string name="update_action_try_again">TEKRAR DENE</string>
-    <string name="update_install_permission_error">mochy için \"Bilinmeyen uygulamaları yükle\" iznini ver, sonra buradaki Yükle\'ye tekrar dokun.</string>
+    <string name="update_install_permission_error">kiyo için \"Bilinmeyen uygulamaları yükle\" iznini ver, sonra buradaki Yükle\'ye tekrar dokun.</string>
     <string name="update_back_desc">Geri</string>
     <string name="update_changelog">Değişiklikler</string>
     <string name="update_to_be_installed">Yüklenecek -</string>

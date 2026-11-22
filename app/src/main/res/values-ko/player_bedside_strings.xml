@@ -24,6 +24,6 @@
     <string name="bedside_lock_screen">잠금 화면에 표시</string>
     <string name="bedside_lock_screen_caption">이 화면이 열린 상태에서 휴대전화를 잠그면 화면을 다시 켤 때도 표시됩니다</string>
     <string name="bedside_lock_blocked">휴대전화가 이 기능을 차단하고 있습니다</string>
-    <string name="bedside_lock_blocked_caption">탭하여 Mochy의 \"잠금 화면에 표시\"를 켜세요</string>
+    <string name="bedside_lock_blocked_caption">탭하여 Kiyo의 \"잠금 화면에 표시\"를 켜세요</string>
     <string name="bedside_lock_blocked_tag">해결</string>
 </resources>

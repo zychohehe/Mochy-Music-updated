@@ -36,7 +36,7 @@
     <string name="spotify_canvas_row_off">Kapalı</string>
     <string name="spotify_canvas_subtitle">Şarkılarının arkasında sanatçı videoları</string>
     <string name="spotify_canvas_what_title">Bu nedir?</string>
-    <string name="spotify_canvas_what">Spotify Canvas, sanatçıların şarkılarına koyduğu kısa döngüsel videodur. Spotify\'a giriş yap, Mochy oraya da Canvas sırası altında verdiğin yerde bakabilsin. Olmayan şarkılar kapağını korur.</string>
+    <string name="spotify_canvas_what">Spotify Canvas, sanatçıların şarkılarına koyduğu kısa döngüsel videodur. Spotify\'a giriş yap, Kiyo oraya da Canvas sırası altında verdiğin yerde bakabilsin. Olmayan şarkılar kapağını korur.</string>
     <string name="spotify_canvas_use">Spotify Canvas\'ı kullan</string>
     <string name="spotify_canvas_use_desc">Spotify\'da da canvas ara</string>
     <string name="spotify_canvas_account">Hesap</string>
@@ -44,8 +44,8 @@
     <string name="spotify_canvas_signed_out">Giriş yapılmadı</string>
     <string name="spotify_canvas_sign_in">Spotify\'a giriş yap</string>
     <string name="spotify_canvas_sign_out">Çıkış yap</string>
-    <string name="spotify_canvas_sign_in_subtitle">Spotify\'ın kendi sayfasında. Mochy bunu yalnızca canvas bulmak için kullanır</string>
-    <string name="spotify_canvas_note">Girişin bu telefonda Mochy\'de kalır ve Spotify içe aktarma da aynısını kullanır. Spotify buna resmi olarak izin vermiyor, bu yüzden riski sana ait.</string>
+    <string name="spotify_canvas_sign_in_subtitle">Spotify\'ın kendi sayfasında. Kiyo bunu yalnızca canvas bulmak için kullanır</string>
+    <string name="spotify_canvas_note">Girişin bu telefonda Kiyo\'de kalır ve Spotify içe aktarma da aynısını kullanır. Spotify buna resmi olarak izin vermiyor, bu yüzden riski sana ait.</string>
     <string name="appearance_global">Genel Görünüm</string>
     <string name="appearance_blur">Bulanıklık</string>
     <string name="appearance_blur_desc">Oynatıcı ve gezinme boyunca cam bulanıklığı</string>
@@ -64,7 +64,7 @@
     <string name="playback_keep_playing_detail">Uygulama son kullanılanlardan silindiğinde arka planda çalmaya devam et</string>
     <string name="playback_mix_other_apps">Diğer uygulamalarla birlikte çal</string>
     <string name="playback_mix_other_apps_desc">Başka bir uygulama ses çıkardığında çalmaya devam et</string>
-    <string name="playback_mix_other_apps_detail">Bir video, oyun veya başka bir müzik uygulaması çalmaya başladığında Mochy duraklamaz ve onları da duraklatmaz. Telefon aramaları yine de müziği duraklatır ve arama bitince kaldığı yerden devam eder.</string>
+    <string name="playback_mix_other_apps_detail">Bir video, oyun veya başka bir müzik uygulaması çalmaya başladığında Kiyo duraklamaz ve onları da duraklatmaz. Telefon aramaları yine de müziği duraklatır ve arama bitince kaldığı yerden devam eder.</string>
     <string name="playback_resume_bluetooth">Bluetooth bağlantısında devam et</string>
     <string name="playback_resume_bluetooth_desc">Kulaklık veya araç bağlandığında duraklatılmış şarkıya devam et</string>
     <string name="pause_music_when_muted_desc">Ses sıfıra düştüğünde duraklat, yükseltildiğinde devam et</string>
@@ -73,11 +73,11 @@
     <string name="playback_save_state_detail">Bunu kapatmak, uygulamayı kapattığında zaten çaldığın şarkıları kaldırır</string>
     <string name="settings_albums_from_likes">Beğenilen şarkılardan albümler</string>
     <string name="settings_albums_from_likes_desc">Bir şarkıyı beğenmek albümünü de ekler</string>
-    <string name="settings_albums_from_likes_detail">Mochy eskiden böyle çalışırdı: beğendiğin her şarkı albümünü Albümler\'e getirir. Kapalıyken Albümler, Apple Music gibi çalışır ve kaydettiğin albümleri, ayrıca eklediğin, içe aktardığın veya bu telefonda tuttuğun şarkıların albümlerini gösterir.</string>
+    <string name="settings_albums_from_likes_detail">Kiyo eskiden böyle çalışırdı: beğendiğin her şarkı albümünü Albümler\'e getirir. Kapalıyken Albümler, Apple Music gibi çalışır ve kaydettiğin albümleri, ayrıca eklediğin, içe aktardığın veya bu telefonda tuttuğun şarkıların albümlerini gösterir.</string>
     <string name="settings_pause_search_history_desc">Aradıklarını kaydetmeyi durdur</string>
     <string name="proxy_status_off">Kapalı</string>
     <string name="proxy_status_on">Açık, %1$s üzerinden</string>
-    <string name="proxy_intro">Mochy\'nin YouTube trafiğini başka bir sunucudan gönder. YouTube ağını engellediğinde veya YouTube Music yaşadığın yerde yoksa yardımcı olur.</string>
+    <string name="proxy_intro">Kiyo\'nin YouTube trafiğini başka bir sunucudan gönder. YouTube ağını engellediğinde veya YouTube Music yaşadığın yerde yoksa yardımcı olur.</string>
     <string name="proxy_use">Bir proxy kullan</string>
     <string name="proxy_use_desc">Şarkılar, videolar, indirmeler ve YouTube istekleri onun üzerinden gider</string>
     <string name="proxy_use_needs_address">Önce proxy\'nin adresini ekle</string>
@@ -154,10 +154,10 @@
     <string name="customise_reset">Varsayılana sıfırla</string>
     <string name="customise_cover_rounding">Kapak\nyuvarlaklığı</string>
     <string name="customise_icons">Simgeler</string>
-    <string name="customise_icons_caption">Ana ekranın yeni simgeyi göstermesi birkaç saniye sürebilir. Oradan Mochy\'yi açmak da o simgeyle başlar.</string>
-    <string name="app_icon_family_mark">Mochy</string>
-    <string name="app_icon_family_outline">Mochy anahat</string>
-    <string name="app_icon_family_anime">Anime Mochy</string>
+    <string name="customise_icons_caption">Ana ekranın yeni simgeyi göstermesi birkaç saniye sürebilir. Oradan Kiyo\'yi açmak da o simgeyle başlar.</string>
+    <string name="app_icon_family_mark">Kiyo</string>
+    <string name="app_icon_family_outline">Kiyo anahat</string>
+    <string name="app_icon_family_anime">Anime Kiyo</string>
     <string name="app_icon_default">Varsayılan</string>
     <string name="app_icon_white">Beyaz</string>
     <string name="app_icon_black">Siyah</string>
@@ -168,10 +168,10 @@
     <string name="app_icon_outline_black">Siyah</string>
     <string name="app_icon_outline_material">Material u</string>
     <string name="app_icon_outline_transparent">Saydam</string>
-    <string name="app_icon_anime_white">Mochy beyaz</string>
-    <string name="app_icon_anime_dark">Mochy koyu</string>
-    <string name="app_icon_anime_material">Mochy material u</string>
-    <string name="app_icon_anime_transparent">Mochy saydam</string>
+    <string name="app_icon_anime_white">Kiyo beyaz</string>
+    <string name="app_icon_anime_dark">Kiyo koyu</string>
+    <string name="app_icon_anime_material">Kiyo material u</string>
+    <string name="app_icon_anime_transparent">Kiyo saydam</string>
     <string name="customise_icons_show_all">Tüm simgeleri göster</string>
     <string name="customise_icons_show_less">Daha az simge göster</string>
     <string name="app_icon_customize">Kişiselleştir</string>
@@ -236,5 +236,5 @@
     <string name="customise_lyrics_preview_translation">eğer bir taş olsaydım</string>
     <string name="settings_floating_lyrics">Yüzen şarkı sözleri</string>
     <string name="settings_floating_lyrics_desc">Söylenen satırı diğer uygulamaların üstünde küçük bir balonda tut</string>
-    <string name="settings_floating_lyrics_detail">Çalmak ve duraklatmak için kapağa dokun, Mochy\'yi açmak için basılı tut. Sürükle, en yakın kenara yapışır. Gizlemek için Kapat\'a bırak (Mochy\'ye dönene kadar gizli kalır), kapatmak için Bir daha gösterme\'ye bırak.</string>
+    <string name="settings_floating_lyrics_detail">Çalmak ve duraklatmak için kapağa dokun, Kiyo\'yi açmak için basılı tut. Sürükle, en yakın kenara yapışır. Gizlemek için Kapat\'a bırak (Kiyo\'ye dönene kadar gizli kalır), kapatmak için Bir daha gösterme\'ye bırak.</string>
 </resources>

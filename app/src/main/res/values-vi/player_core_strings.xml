@@ -119,7 +119,7 @@
     <string name="pc_resync_open_playlist">Hãy mở danh sách phát và đồng bộ lại từ menu của nó.</string>
     <string name="pc_resync_busy">Một lượt nhập vẫn đang chạy. Hãy thử lại sau khi nó xong.</string>
     <string name="pc_resync_nothing">Không có danh sách phát nào của bạn đến từ dịch vụ nhạc nên không có gì để đồng bộ lại.</string>
-    <string name="pc_resync_link_hint">Danh sách phát này được nhập trước khi Mochy lưu nguồn gốc của nó. Đồng bộ lại cần liên kết để tìm lại nó.</string>
+    <string name="pc_resync_link_hint">Danh sách phát này được nhập trước khi Kiyo lưu nguồn gốc của nó. Đồng bộ lại cần liên kết để tìm lại nó.</string>
     <string name="pc_search_playlist_songs">Tìm bài hát trong danh sách phát</string>
     <string name="pc_search_songs_here">Tìm bài hát ở đây</string>
     <string name="pc_lock_order">Khóa thứ tự</string>

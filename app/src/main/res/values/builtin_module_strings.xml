@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="builtin_module_apple_description">Plays your Apple Music subscription in Mochy, in AAC 256, with every Audio Lab effect</string>
+    <string name="builtin_module_apple_description">Plays your Apple Music subscription in Kiyo, in AAC 256, with every Audio Lab effect</string>
     <string name="builtin_module_monochrome_description">Lossless FLAC for every song Monochrome has, no account needed, with every Audio Lab effect</string>
     <string name="builtin_module_jiosaavn_description">JioSaavn\'s catalog in AAC up to 320 kbps, no account needed. Strongest on Indian music</string>
     <string name="builtin_module_stream">Stream</string>

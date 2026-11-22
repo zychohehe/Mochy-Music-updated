@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="builtin_module_apple_description">Apple Music 구독을 Mochy에서 AAC 256으로 재생하며 모든 오디오 랩 효과를 사용할 수 있습니다</string>
+    <string name="builtin_module_apple_description">Apple Music 구독을 Kiyo에서 AAC 256으로 재생하며 모든 오디오 랩 효과를 사용할 수 있습니다</string>
     <string name="builtin_module_monochrome_description">계정 없이 Monochrome에서 제공하는 곡을 무손실 FLAC으로 재생하며 모든 오디오 랩 효과를 사용할 수 있습니다</string>
     <string name="builtin_module_jiosaavn_description">계정 없이 JioSaavn의 음악을 최대 320 kbps AAC로 재생합니다. 특히 인도 음악이 풍부합니다</string>
     <string name="builtin_module_stream">스트리밍</string>
